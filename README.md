@@ -13,6 +13,7 @@ Mapeamento de uma zona de risco (enchente/desabamento) inspirado em casos reais 
 
 ## Estrutura do repositório
 
+```
 .
 ├── fase1/          Topologia e Conectividade (BFS/DFS, pontes, articulação)
 │   ├── src/        Código-fonte em C
@@ -24,3 +25,40 @@ Mapeamento de uma zona de risco (enchente/desabamento) inspirado em casos reais 
 │   └── tests/
 └── docs/
     └── artigo/     Artigo científico no padrão SBC
+```
+
+## Requisitos técnicos
+
+- Linguagem: **C**, sem bibliotecas prontas de grafos (implementação autoral dos algoritmos core)
+- Dataset real com no mínimo 1.000 vértices
+- Suporte a Lista e Matriz de Adjacência
+- Geração de logs de tempo de execução (ms) e consumo de memória
+
+## Como compilar e rodar
+
+```bash
+cd fase1/src
+gcc -o programa main.c -Wall
+./programa
+```
+
+*(Instruções detalhadas serão atualizadas conforme os módulos forem implementados.)*
+
+## Equipe
+
+| Pessoa | Responsabilidade | Responsável |
+|---|---|---|
+| P1 | Estrutura de dados (Lista/Matriz de Adjacência), leitura de dataset, logging | Caroline Lopes Martins |
+| P2 | BFS/DFS, conectividade, simulação de propagação do desastre | Ian Melo Gonçalves |
+| P3 | Pontes e Vértices de Articulação (Tarjan) | Matheus Filipe da Silva Ponte |
+| P4 | Testes de desempenho e gráficos comparativos | Guilherme Amaro de Castro |
+| P5 | Documentação, artigo científico e apresentação | Bruno Nobrega Souza |
+
+## Fases do projeto
+
+- **Fase I:** Topologia e Conectividade — Sprint 1 e 2
+- **Fase II:** Otimização e Complexidade — a definir
+
+## Disciplina
+
+Projeto acadêmico aplicando Teoria dos Grafos a um problema real, com artigo científico no padrão SBC (Sociedade Brasileira de Computação).
