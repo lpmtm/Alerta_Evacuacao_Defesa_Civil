@@ -1,3 +1,6 @@
+//   rodar com gcc -o programa main.c grafo.c -lm -Wall
+//  ./programa
+
 #include <stdio.h>
 #include "grafo.h"
 

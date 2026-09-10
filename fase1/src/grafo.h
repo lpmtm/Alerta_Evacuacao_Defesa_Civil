@@ -57,4 +57,7 @@ Grafo *carregar_grafo_geojson(const char *caminho_arquivo);
 /* Imprime um resumo do grafo (número de vértices, arestas, etc.) */
 void imprimir_estatisticas(Grafo *g);
 
+/* Imprime a Lista de Adjacência completa do grafo */
+void imprimir_lista_adjacencia(Grafo *g);
+
 #endif

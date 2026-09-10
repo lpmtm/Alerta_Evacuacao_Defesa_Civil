@@ -247,6 +247,24 @@ Grafo *carregar_grafo_geojson(const char *caminho_arquivo) {
 /* Utilidades                                                   */
 /* ---------------------------------------------------------- */
 
+void imprimir_lista_adjacencia(Grafo *g) {
+    printf("===== Lista de Adjacência =====\n");
+    for (int i = 0; i < g->num_vertices; i++) {
+        printf("%d: ", i);
+        NoAdjacente *atual = g->lista_adj[i];
+        if (!atual) {
+            printf("(sem conexões)");
+        }
+        while (atual) {
+            printf("%d", atual->destino);
+            if (atual->prox) printf(" -> ");
+            atual = atual->prox;
+        }
+        printf("\n");
+    }
+    printf("================================\n");
+}
+
 void imprimir_estatisticas(Grafo *g) {
     printf("===== Estatísticas do Grafo =====\n");
     printf("Vértices (cruzamentos): %d\n", g->num_vertices);
