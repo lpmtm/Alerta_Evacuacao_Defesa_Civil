@@ -265,6 +265,30 @@ void imprimir_lista_adjacencia(Grafo *g) {
     printf("================================\n");
 }
 
+void imprimir_matriz_adjacencia(Grafo *g, int limite) {
+    if (limite > g->num_vertices) {
+        limite = g->num_vertices;
+    }
+
+    printf("===== Matriz de Adjacência (amostra %dx%d) =====\n", limite, limite);
+
+    /* Cabeçalho com os índices das colunas */
+    printf("     ");
+    for (int j = 0; j < limite; j++) {
+        printf("%2d ", j);
+    }
+    printf("\n");
+
+    for (int i = 0; i < limite; i++) {
+        printf("%3d: ", i);
+        for (int j = 0; j < limite; j++) {
+            printf("%2d ", g->matriz_adj[i][j]);
+        }
+        printf("\n");
+    }
+    printf("=================================================\n");
+}
+
 void imprimir_estatisticas(Grafo *g) {
     printf("===== Estatísticas do Grafo =====\n");
     printf("Vértices (cruzamentos): %d\n", g->num_vertices);

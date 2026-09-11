@@ -60,4 +60,7 @@ void imprimir_estatisticas(Grafo *g);
 /* Imprime a Lista de Adjacência completa do grafo */
 void imprimir_lista_adjacencia(Grafo *g);
 
+/* Imprime uma amostra (limite x limite) da Matriz de Adjacência */
+void imprimir_matriz_adjacencia(Grafo *g, int limite);
+
 #endif
