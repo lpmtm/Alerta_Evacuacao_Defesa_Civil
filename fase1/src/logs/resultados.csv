@@ -1,0 +1,2 @@
+algoritmo,n_vertices,tempo_ms,memoria_bytes
+BFS,3143,0.115,25168
