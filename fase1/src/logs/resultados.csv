@@ -1,3 +1,7 @@
 algoritmo,n_vertices,tempo_ms,memoria_bytes
 BFS,3143,0.115,25168
 DFS,3143,0.118,12572
+BFS,3143,0.137,50312
+BFS,3143,0.009,50312
+BFS,3143,0.008,50312
+Componentes,3143,0.415,50312
