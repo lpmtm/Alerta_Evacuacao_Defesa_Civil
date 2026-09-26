@@ -228,4 +228,154 @@ void imprimir_articulacoes(
     );
 
     (void)grafo;
+
+}
+
+void identificar_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado
+) {
+    if (grafo == NULL || resultado == NULL) {
+        return;
+    }
+
+    printf("\n========== VIAS CRITICAS ==========\n");
+
+    if (resultado->quantidade_pontes == 0) {
+        printf("Nenhuma via critica identificada.\n");
+        return;
+    }
+
+    for (int i = 0;
+         i < resultado->quantidade_pontes;
+         i++) {
+
+        int origem = resultado->pontes[i].origem;
+        int destino = resultado->pontes[i].destino;
+
+        printf(
+            "Via critica %d: %d -> %d\n",
+            i + 1,
+            origem,
+            destino
+        );
+    }
+
+    printf(
+        "Total de vias criticas: %d\n",
+        resultado->quantidade_pontes
+    );
+}
+
+void gerar_relatorio_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado,
+    const char *nome_arquivo
+) {
+    if (grafo == NULL ||
+        resultado == NULL ||
+        nome_arquivo == NULL) {
+        return;
+    }
+
+    FILE *arquivo = fopen(nome_arquivo, "w");
+
+    if (arquivo == NULL) {
+        printf(
+            "Erro ao criar o arquivo de relatorio.\n"
+        );
+        return;
+    }
+
+    fprintf(
+        arquivo,
+        "========================================\n"
+    );
+
+    fprintf(
+        arquivo,
+        "RELATORIO DE VIAS CRITICAS\n"
+    );
+
+    fprintf(
+        arquivo,
+        "========================================\n\n"
+    );
+
+    fprintf(
+        arquivo,
+        "Total de pontes identificadas: %d\n",
+        resultado->quantidade_pontes
+    );
+
+    fprintf(
+        arquivo,
+        "Total de vertices de articulacao: %d\n\n",
+        resultado->quantidade_articulacoes
+    );
+
+    fprintf(
+        arquivo,
+        "VIAS CRITICAS\n"
+    );
+
+    fprintf(
+        arquivo,
+        "----------------------------------------\n"
+    );
+
+    for (int i = 0;
+         i < resultado->quantidade_pontes;
+         i++) {
+
+        int origem =
+            resultado->pontes[i].origem;
+
+        int destino =
+            resultado->pontes[i].destino;
+
+        fprintf(
+            arquivo,
+            "Via %d: vertice %d -> vertice %d\n",
+            i + 1,
+            origem,
+            destino
+        );
+    }
+
+    fprintf(
+        arquivo,
+        "\nVERTICES DE ARTICULACAO\n"
+    );
+
+    fprintf(
+        arquivo,
+        "----------------------------------------\n"
+    );
+
+    for (int i = 0;
+         i < resultado->quantidade_articulacoes;
+         i++) {
+
+        fprintf(
+            arquivo,
+            "Vertice %d: %d\n",
+            i + 1,
+            resultado->articulacoes[i]
+        );
+    }
+
+    fprintf(
+        arquivo,
+        "\nConclusao:\n"
+    );
+
+    fprintf(
+        arquivo,
+        "As vias listadas devem ser consideradas "
+        "na analise de reforco estrutural preventivo "
+        "e planejamento de rotas de fuga.\n"
+    );
+
+    fclose(arquivo);
 }

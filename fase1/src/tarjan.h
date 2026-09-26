@@ -27,4 +27,15 @@ void imprimir_pontes(Grafo *grafo, ResultadoTarjan *resultado);
 
 void imprimir_articulacoes(Grafo *grafo, ResultadoTarjan *resultado);
 
+void identificar_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado
+);
+
+void gerar_relatorio_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado,
+    const char *nome_arquivo
+);
+
 #endif
