@@ -39,4 +39,9 @@ void gerar_relatorio_vias_criticas(
     const ResultadoTarjan *resultado
 );
 
+void identificar_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado
+);
+
 #endif

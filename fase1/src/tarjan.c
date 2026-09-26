@@ -647,3 +647,39 @@ void gerar_relatorio_vias_criticas(
         "==============================================\n"
     );
 }
+
+void identificar_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado
+) {
+    if (grafo == NULL || resultado == NULL) {
+        return;
+    }
+
+    printf("\n========== VIAS CRITICAS ==========\n");
+
+    if (resultado->quantidade_pontes == 0) {
+        printf("Nenhuma via critica identificada.\n");
+        return;
+    }
+
+    for (int i = 0;
+         i < resultado->quantidade_pontes;
+         i++) {
+
+        int origem = resultado->pontes[i].origem;
+        int destino = resultado->pontes[i].destino;
+
+        printf(
+            "Via critica %d: %d -> %d\n",
+            i + 1,
+            origem,
+            destino
+        );
+    }
+
+    printf(
+        "Total de vias criticas: %d\n",
+        resultado->quantidade_pontes
+    );
+}
