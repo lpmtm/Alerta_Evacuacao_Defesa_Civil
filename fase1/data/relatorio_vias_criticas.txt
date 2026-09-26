@@ -1,0 +1,3209 @@
+========================================
+RELATORIO DE VIAS CRITICAS
+========================================
+
+Total de pontes identificadas: 1615
+Total de vertices de articulacao: 1577
+
+VIAS CRITICAS
+----------------------------------------
+Via 1: vertice 2900 -> vertice 2901
+Via 2: vertice 2899 -> vertice 2900
+Via 3: vertice 2898 -> vertice 2899
+Via 4: vertice 2897 -> vertice 2898
+Via 5: vertice 2896 -> vertice 2897
+Via 6: vertice 2882 -> vertice 2896
+Via 7: vertice 111 -> vertice 112
+Via 8: vertice 110 -> vertice 111
+Via 9: vertice 109 -> vertice 110
+Via 10: vertice 108 -> vertice 109
+Via 11: vertice 107 -> vertice 108
+Via 12: vertice 106 -> vertice 107
+Via 13: vertice 105 -> vertice 106
+Via 14: vertice 104 -> vertice 105
+Via 15: vertice 103 -> vertice 104
+Via 16: vertice 102 -> vertice 103
+Via 17: vertice 101 -> vertice 102
+Via 18: vertice 100 -> vertice 101
+Via 19: vertice 99 -> vertice 100
+Via 20: vertice 98 -> vertice 99
+Via 21: vertice 97 -> vertice 98
+Via 22: vertice 96 -> vertice 97
+Via 23: vertice 95 -> vertice 96
+Via 24: vertice 94 -> vertice 95
+Via 25: vertice 93 -> vertice 94
+Via 26: vertice 92 -> vertice 93
+Via 27: vertice 91 -> vertice 92
+Via 28: vertice 90 -> vertice 91
+Via 29: vertice 89 -> vertice 90
+Via 30: vertice 88 -> vertice 89
+Via 31: vertice 87 -> vertice 88
+Via 32: vertice 86 -> vertice 87
+Via 33: vertice 85 -> vertice 86
+Via 34: vertice 84 -> vertice 85
+Via 35: vertice 83 -> vertice 84
+Via 36: vertice 82 -> vertice 83
+Via 37: vertice 81 -> vertice 82
+Via 38: vertice 80 -> vertice 81
+Via 39: vertice 3123 -> vertice 3124
+Via 40: vertice 3122 -> vertice 3123
+Via 41: vertice 3121 -> vertice 3122
+Via 42: vertice 3120 -> vertice 3121
+Via 43: vertice 3119 -> vertice 3120
+Via 44: vertice 3118 -> vertice 3119
+Via 45: vertice 3117 -> vertice 3118
+Via 46: vertice 3116 -> vertice 3117
+Via 47: vertice 3115 -> vertice 3116
+Via 48: vertice 3103 -> vertice 3115
+Via 49: vertice 3078 -> vertice 3079
+Via 50: vertice 3081 -> vertice 3078
+Via 51: vertice 3108 -> vertice 3081
+Via 52: vertice 3107 -> vertice 3108
+Via 53: vertice 3106 -> vertice 3107
+Via 54: vertice 3105 -> vertice 3106
+Via 55: vertice 3104 -> vertice 3105
+Via 56: vertice 3103 -> vertice 3104
+Via 57: vertice 3114 -> vertice 3103
+Via 58: vertice 3113 -> vertice 3114
+Via 59: vertice 3112 -> vertice 3113
+Via 60: vertice 3111 -> vertice 3112
+Via 61: vertice 3110 -> vertice 3111
+Via 62: vertice 3109 -> vertice 3110
+Via 63: vertice 15 -> vertice 3109
+Via 64: vertice 1382 -> vertice 1383
+Via 65: vertice 1381 -> vertice 1382
+Via 66: vertice 1380 -> vertice 1381
+Via 67: vertice 1379 -> vertice 1380
+Via 68: vertice 1378 -> vertice 1379
+Via 69: vertice 1377 -> vertice 1378
+Via 70: vertice 1376 -> vertice 1377
+Via 71: vertice 1375 -> vertice 1376
+Via 72: vertice 1374 -> vertice 1375
+Via 73: vertice 1373 -> vertice 1374
+Via 74: vertice 1372 -> vertice 1373
+Via 75: vertice 1371 -> vertice 1372
+Via 76: vertice 1370 -> vertice 1371
+Via 77: vertice 1369 -> vertice 1370
+Via 78: vertice 1368 -> vertice 1369
+Via 79: vertice 1367 -> vertice 1368
+Via 80: vertice 1366 -> vertice 1367
+Via 81: vertice 1365 -> vertice 1366
+Via 82: vertice 1364 -> vertice 1365
+Via 83: vertice 1363 -> vertice 1364
+Via 84: vertice 1362 -> vertice 1363
+Via 85: vertice 1361 -> vertice 1362
+Via 86: vertice 1360 -> vertice 1361
+Via 87: vertice 1359 -> vertice 1360
+Via 88: vertice 1358 -> vertice 1359
+Via 89: vertice 1357 -> vertice 1358
+Via 90: vertice 1356 -> vertice 1357
+Via 91: vertice 1355 -> vertice 1356
+Via 92: vertice 1354 -> vertice 1355
+Via 93: vertice 1353 -> vertice 1354
+Via 94: vertice 1352 -> vertice 1353
+Via 95: vertice 1351 -> vertice 1352
+Via 96: vertice 1350 -> vertice 1351
+Via 97: vertice 1349 -> vertice 1350
+Via 98: vertice 1348 -> vertice 1349
+Via 99: vertice 1347 -> vertice 1348
+Via 100: vertice 1346 -> vertice 1347
+Via 101: vertice 1345 -> vertice 1346
+Via 102: vertice 1344 -> vertice 1345
+Via 103: vertice 1343 -> vertice 1344
+Via 104: vertice 1342 -> vertice 1343
+Via 105: vertice 1341 -> vertice 1342
+Via 106: vertice 1340 -> vertice 1341
+Via 107: vertice 1339 -> vertice 1340
+Via 108: vertice 1338 -> vertice 1339
+Via 109: vertice 1337 -> vertice 1338
+Via 110: vertice 1336 -> vertice 1337
+Via 111: vertice 1335 -> vertice 1336
+Via 112: vertice 1334 -> vertice 1335
+Via 113: vertice 1333 -> vertice 1334
+Via 114: vertice 1332 -> vertice 1333
+Via 115: vertice 1331 -> vertice 1332
+Via 116: vertice 1330 -> vertice 1331
+Via 117: vertice 1329 -> vertice 1330
+Via 118: vertice 1328 -> vertice 1329
+Via 119: vertice 1327 -> vertice 1328
+Via 120: vertice 1326 -> vertice 1327
+Via 121: vertice 1325 -> vertice 1326
+Via 122: vertice 1324 -> vertice 1325
+Via 123: vertice 1323 -> vertice 1324
+Via 124: vertice 1322 -> vertice 1323
+Via 125: vertice 1321 -> vertice 1322
+Via 126: vertice 1320 -> vertice 1321
+Via 127: vertice 1319 -> vertice 1320
+Via 128: vertice 1318 -> vertice 1319
+Via 129: vertice 1317 -> vertice 1318
+Via 130: vertice 1316 -> vertice 1317
+Via 131: vertice 1315 -> vertice 1316
+Via 132: vertice 1314 -> vertice 1315
+Via 133: vertice 1313 -> vertice 1314
+Via 134: vertice 1312 -> vertice 1313
+Via 135: vertice 1311 -> vertice 1312
+Via 136: vertice 1310 -> vertice 1311
+Via 137: vertice 1309 -> vertice 1310
+Via 138: vertice 1308 -> vertice 1309
+Via 139: vertice 1307 -> vertice 1308
+Via 140: vertice 1306 -> vertice 1307
+Via 141: vertice 1305 -> vertice 1306
+Via 142: vertice 1304 -> vertice 1305
+Via 143: vertice 1303 -> vertice 1304
+Via 144: vertice 1302 -> vertice 1303
+Via 145: vertice 1301 -> vertice 1302
+Via 146: vertice 1300 -> vertice 1301
+Via 147: vertice 1299 -> vertice 1300
+Via 148: vertice 1298 -> vertice 1299
+Via 149: vertice 1297 -> vertice 1298
+Via 150: vertice 1296 -> vertice 1297
+Via 151: vertice 1295 -> vertice 1296
+Via 152: vertice 1294 -> vertice 1295
+Via 153: vertice 473 -> vertice 474
+Via 154: vertice 472 -> vertice 473
+Via 155: vertice 471 -> vertice 472
+Via 156: vertice 470 -> vertice 471
+Via 157: vertice 469 -> vertice 470
+Via 158: vertice 468 -> vertice 469
+Via 159: vertice 467 -> vertice 468
+Via 160: vertice 466 -> vertice 467
+Via 161: vertice 465 -> vertice 466
+Via 162: vertice 464 -> vertice 465
+Via 163: vertice 463 -> vertice 464
+Via 164: vertice 462 -> vertice 463
+Via 165: vertice 461 -> vertice 462
+Via 166: vertice 460 -> vertice 461
+Via 167: vertice 459 -> vertice 460
+Via 168: vertice 458 -> vertice 459
+Via 169: vertice 457 -> vertice 458
+Via 170: vertice 456 -> vertice 457
+Via 171: vertice 455 -> vertice 456
+Via 172: vertice 454 -> vertice 455
+Via 173: vertice 453 -> vertice 454
+Via 174: vertice 452 -> vertice 453
+Via 175: vertice 451 -> vertice 452
+Via 176: vertice 450 -> vertice 451
+Via 177: vertice 449 -> vertice 450
+Via 178: vertice 448 -> vertice 449
+Via 179: vertice 447 -> vertice 448
+Via 180: vertice 446 -> vertice 447
+Via 181: vertice 445 -> vertice 446
+Via 182: vertice 444 -> vertice 445
+Via 183: vertice 443 -> vertice 444
+Via 184: vertice 442 -> vertice 443
+Via 185: vertice 441 -> vertice 442
+Via 186: vertice 440 -> vertice 441
+Via 187: vertice 439 -> vertice 440
+Via 188: vertice 438 -> vertice 439
+Via 189: vertice 437 -> vertice 438
+Via 190: vertice 436 -> vertice 437
+Via 191: vertice 435 -> vertice 436
+Via 192: vertice 434 -> vertice 435
+Via 193: vertice 433 -> vertice 434
+Via 194: vertice 432 -> vertice 433
+Via 195: vertice 431 -> vertice 432
+Via 196: vertice 430 -> vertice 431
+Via 197: vertice 429 -> vertice 430
+Via 198: vertice 428 -> vertice 429
+Via 199: vertice 427 -> vertice 428
+Via 200: vertice 426 -> vertice 427
+Via 201: vertice 425 -> vertice 426
+Via 202: vertice 424 -> vertice 425
+Via 203: vertice 423 -> vertice 424
+Via 204: vertice 422 -> vertice 423
+Via 205: vertice 421 -> vertice 422
+Via 206: vertice 420 -> vertice 421
+Via 207: vertice 419 -> vertice 420
+Via 208: vertice 418 -> vertice 419
+Via 209: vertice 417 -> vertice 418
+Via 210: vertice 416 -> vertice 417
+Via 211: vertice 415 -> vertice 416
+Via 212: vertice 414 -> vertice 415
+Via 213: vertice 413 -> vertice 414
+Via 214: vertice 412 -> vertice 413
+Via 215: vertice 411 -> vertice 412
+Via 216: vertice 410 -> vertice 411
+Via 217: vertice 409 -> vertice 410
+Via 218: vertice 408 -> vertice 409
+Via 219: vertice 407 -> vertice 408
+Via 220: vertice 406 -> vertice 407
+Via 221: vertice 405 -> vertice 406
+Via 222: vertice 2615 -> vertice 2616
+Via 223: vertice 2614 -> vertice 2615
+Via 224: vertice 2613 -> vertice 2614
+Via 225: vertice 2612 -> vertice 2613
+Via 226: vertice 2611 -> vertice 2612
+Via 227: vertice 2610 -> vertice 2611
+Via 228: vertice 2609 -> vertice 2610
+Via 229: vertice 2608 -> vertice 2609
+Via 230: vertice 2607 -> vertice 2608
+Via 231: vertice 2606 -> vertice 2607
+Via 232: vertice 2605 -> vertice 2606
+Via 233: vertice 2604 -> vertice 2605
+Via 234: vertice 2603 -> vertice 2604
+Via 235: vertice 2602 -> vertice 2603
+Via 236: vertice 2601 -> vertice 2602
+Via 237: vertice 2600 -> vertice 2601
+Via 238: vertice 2599 -> vertice 2600
+Via 239: vertice 2598 -> vertice 2599
+Via 240: vertice 189 -> vertice 2598
+Via 241: vertice 170 -> vertice 169
+Via 242: vertice 171 -> vertice 170
+Via 243: vertice 172 -> vertice 171
+Via 244: vertice 173 -> vertice 172
+Via 245: vertice 174 -> vertice 173
+Via 246: vertice 175 -> vertice 174
+Via 247: vertice 176 -> vertice 175
+Via 248: vertice 2451 -> vertice 2450
+Via 249: vertice 1768 -> vertice 2451
+Via 250: vertice 2468 -> vertice 2469
+Via 251: vertice 2467 -> vertice 2468
+Via 252: vertice 2466 -> vertice 2467
+Via 253: vertice 2465 -> vertice 2466
+Via 254: vertice 2464 -> vertice 2465
+Via 255: vertice 2463 -> vertice 2464
+Via 256: vertice 2462 -> vertice 2463
+Via 257: vertice 2461 -> vertice 2462
+Via 258: vertice 2460 -> vertice 2461
+Via 259: vertice 2459 -> vertice 2460
+Via 260: vertice 2458 -> vertice 2459
+Via 261: vertice 2457 -> vertice 2458
+Via 262: vertice 2456 -> vertice 2457
+Via 263: vertice 2455 -> vertice 2456
+Via 264: vertice 2454 -> vertice 2455
+Via 265: vertice 2453 -> vertice 2454
+Via 266: vertice 2452 -> vertice 2453
+Via 267: vertice 1766 -> vertice 2452
+Via 268: vertice 2471 -> vertice 2470
+Via 269: vertice 2472 -> vertice 2471
+Via 270: vertice 2473 -> vertice 2472
+Via 271: vertice 2474 -> vertice 2473
+Via 272: vertice 2475 -> vertice 2474
+Via 273: vertice 2476 -> vertice 2475
+Via 274: vertice 2477 -> vertice 2476
+Via 275: vertice 2478 -> vertice 2477
+Via 276: vertice 2479 -> vertice 2478
+Via 277: vertice 2480 -> vertice 2479
+Via 278: vertice 2481 -> vertice 2480
+Via 279: vertice 2482 -> vertice 2481
+Via 280: vertice 2483 -> vertice 2482
+Via 281: vertice 2484 -> vertice 2483
+Via 282: vertice 2485 -> vertice 2484
+Via 283: vertice 2486 -> vertice 2485
+Via 284: vertice 2487 -> vertice 2486
+Via 285: vertice 2488 -> vertice 2487
+Via 286: vertice 2489 -> vertice 2488
+Via 287: vertice 2490 -> vertice 2489
+Via 288: vertice 2491 -> vertice 2490
+Via 289: vertice 2492 -> vertice 2491
+Via 290: vertice 2493 -> vertice 2492
+Via 291: vertice 2494 -> vertice 2493
+Via 292: vertice 2495 -> vertice 2494
+Via 293: vertice 2496 -> vertice 2495
+Via 294: vertice 2497 -> vertice 2496
+Via 295: vertice 2834 -> vertice 2497
+Via 296: vertice 2835 -> vertice 2834
+Via 297: vertice 2836 -> vertice 2835
+Via 298: vertice 1742 -> vertice 2836
+Via 299: vertice 1191 -> vertice 2838
+Via 300: vertice 2449 -> vertice 2448
+Via 301: vertice 1181 -> vertice 2449
+Via 302: vertice 2446 -> vertice 2447
+Via 303: vertice 2445 -> vertice 2446
+Via 304: vertice 2444 -> vertice 2445
+Via 305: vertice 1167 -> vertice 2444
+Via 306: vertice 1731 -> vertice 1730
+Via 307: vertice 1732 -> vertice 1731
+Via 308: vertice 1164 -> vertice 1732
+Via 309: vertice 1142 -> vertice 3047
+Via 310: vertice 957 -> vertice 3048
+Via 311: vertice 958 -> vertice 3077
+Via 312: vertice 968 -> vertice 967
+Via 313: vertice 965 -> vertice 968
+Via 314: vertice 966 -> vertice 965
+Via 315: vertice 969 -> vertice 966
+Via 316: vertice 970 -> vertice 969
+Via 317: vertice 971 -> vertice 970
+Via 318: vertice 972 -> vertice 971
+Via 319: vertice 1475 -> vertice 972
+Via 320: vertice 1474 -> vertice 1475
+Via 321: vertice 1473 -> vertice 1474
+Via 322: vertice 1472 -> vertice 1473
+Via 323: vertice 806 -> vertice 1472
+Via 324: vertice 2596 -> vertice 2597
+Via 325: vertice 905 -> vertice 2596
+Via 326: vertice 2635 -> vertice 2636
+Via 327: vertice 2634 -> vertice 2635
+Via 328: vertice 911 -> vertice 2634
+Via 329: vertice 2092 -> vertice 2091
+Via 330: vertice 2093 -> vertice 2092
+Via 331: vertice 2094 -> vertice 2093
+Via 332: vertice 2095 -> vertice 2094
+Via 333: vertice 2096 -> vertice 2095
+Via 334: vertice 610 -> vertice 2096
+Via 335: vertice 2121 -> vertice 2120
+Via 336: vertice 629 -> vertice 2121
+Via 337: vertice 2709 -> vertice 2708
+Via 338: vertice 2710 -> vertice 2709
+Via 339: vertice 2711 -> vertice 2710
+Via 340: vertice 2712 -> vertice 2711
+Via 341: vertice 1864 -> vertice 2712
+Via 342: vertice 1868 -> vertice 1869
+Via 343: vertice 1867 -> vertice 1868
+Via 344: vertice 1866 -> vertice 1867
+Via 345: vertice 1865 -> vertice 1866
+Via 346: vertice 1864 -> vertice 1865
+Via 347: vertice 1936 -> vertice 1864
+Via 348: vertice 1923 -> vertice 1918
+Via 349: vertice 1922 -> vertice 1923
+Via 350: vertice 1921 -> vertice 1922
+Via 351: vertice 1920 -> vertice 1921
+Via 352: vertice 1919 -> vertice 1920
+Via 353: vertice 1964 -> vertice 1919
+Via 354: vertice 1963 -> vertice 1964
+Via 355: vertice 1962 -> vertice 1963
+Via 356: vertice 1961 -> vertice 1962
+Via 357: vertice 1960 -> vertice 1961
+Via 358: vertice 1959 -> vertice 1960
+Via 359: vertice 1958 -> vertice 1959
+Via 360: vertice 1957 -> vertice 1958
+Via 361: vertice 1956 -> vertice 1957
+Via 362: vertice 1955 -> vertice 1956
+Via 363: vertice 1954 -> vertice 1955
+Via 364: vertice 1953 -> vertice 1954
+Via 365: vertice 1952 -> vertice 1953
+Via 366: vertice 1951 -> vertice 1952
+Via 367: vertice 1950 -> vertice 1951
+Via 368: vertice 1949 -> vertice 1950
+Via 369: vertice 1948 -> vertice 1949
+Via 370: vertice 1947 -> vertice 1948
+Via 371: vertice 1946 -> vertice 1947
+Via 372: vertice 1945 -> vertice 1946
+Via 373: vertice 1944 -> vertice 1945
+Via 374: vertice 1943 -> vertice 1944
+Via 375: vertice 1942 -> vertice 1943
+Via 376: vertice 1941 -> vertice 1942
+Via 377: vertice 1940 -> vertice 1941
+Via 378: vertice 1939 -> vertice 1940
+Via 379: vertice 1938 -> vertice 1939
+Via 380: vertice 1937 -> vertice 1938
+Via 381: vertice 1936 -> vertice 1937
+Via 382: vertice 2713 -> vertice 1936
+Via 383: vertice 2714 -> vertice 2713
+Via 384: vertice 1804 -> vertice 2714
+Via 385: vertice 1844 -> vertice 1845
+Via 386: vertice 1843 -> vertice 1844
+Via 387: vertice 1842 -> vertice 1843
+Via 388: vertice 1841 -> vertice 1842
+Via 389: vertice 1840 -> vertice 1841
+Via 390: vertice 1839 -> vertice 1840
+Via 391: vertice 1838 -> vertice 1839
+Via 392: vertice 1837 -> vertice 1838
+Via 393: vertice 1836 -> vertice 1837
+Via 394: vertice 1835 -> vertice 1836
+Via 395: vertice 1834 -> vertice 1835
+Via 396: vertice 1833 -> vertice 1834
+Via 397: vertice 1832 -> vertice 1833
+Via 398: vertice 1831 -> vertice 1832
+Via 399: vertice 1830 -> vertice 1831
+Via 400: vertice 1829 -> vertice 1830
+Via 401: vertice 1828 -> vertice 1829
+Via 402: vertice 1827 -> vertice 1828
+Via 403: vertice 1826 -> vertice 1827
+Via 404: vertice 1825 -> vertice 1826
+Via 405: vertice 1824 -> vertice 1825
+Via 406: vertice 1823 -> vertice 1824
+Via 407: vertice 1822 -> vertice 1823
+Via 408: vertice 1821 -> vertice 1822
+Via 409: vertice 1820 -> vertice 1821
+Via 410: vertice 1819 -> vertice 1820
+Via 411: vertice 1818 -> vertice 1819
+Via 412: vertice 1816 -> vertice 1818
+Via 413: vertice 1816 -> vertice 1817
+Via 414: vertice 1815 -> vertice 1816
+Via 415: vertice 1814 -> vertice 1815
+Via 416: vertice 1813 -> vertice 1814
+Via 417: vertice 1812 -> vertice 1813
+Via 418: vertice 1811 -> vertice 1812
+Via 419: vertice 1810 -> vertice 1811
+Via 420: vertice 1809 -> vertice 1810
+Via 421: vertice 1808 -> vertice 1809
+Via 422: vertice 1807 -> vertice 1808
+Via 423: vertice 1806 -> vertice 1807
+Via 424: vertice 1805 -> vertice 1806
+Via 425: vertice 1804 -> vertice 1805
+Via 426: vertice 1863 -> vertice 1804
+Via 427: vertice 1862 -> vertice 1863
+Via 428: vertice 1861 -> vertice 1862
+Via 429: vertice 1860 -> vertice 1861
+Via 430: vertice 1859 -> vertice 1860
+Via 431: vertice 1858 -> vertice 1859
+Via 432: vertice 1857 -> vertice 1858
+Via 433: vertice 1856 -> vertice 1857
+Via 434: vertice 1855 -> vertice 1856
+Via 435: vertice 1854 -> vertice 1855
+Via 436: vertice 1853 -> vertice 1854
+Via 437: vertice 1852 -> vertice 1853
+Via 438: vertice 1851 -> vertice 1852
+Via 439: vertice 1850 -> vertice 1851
+Via 440: vertice 1849 -> vertice 1850
+Via 441: vertice 1848 -> vertice 1849
+Via 442: vertice 1847 -> vertice 1848
+Via 443: vertice 1846 -> vertice 1847
+Via 444: vertice 2782 -> vertice 2781
+Via 445: vertice 2783 -> vertice 2782
+Via 446: vertice 2784 -> vertice 2783
+Via 447: vertice 2549 -> vertice 2784
+Via 448: vertice 1998 -> vertice 1999
+Via 449: vertice 1997 -> vertice 1998
+Via 450: vertice 1996 -> vertice 1997
+Via 451: vertice 1995 -> vertice 1996
+Via 452: vertice 1994 -> vertice 1995
+Via 453: vertice 1993 -> vertice 1994
+Via 454: vertice 1992 -> vertice 1993
+Via 455: vertice 1991 -> vertice 1992
+Via 456: vertice 1990 -> vertice 1991
+Via 457: vertice 1989 -> vertice 1990
+Via 458: vertice 1988 -> vertice 1989
+Via 459: vertice 1987 -> vertice 1988
+Via 460: vertice 1986 -> vertice 1987
+Via 461: vertice 1971 -> vertice 1986
+Via 462: vertice 2086 -> vertice 2087
+Via 463: vertice 2085 -> vertice 2086
+Via 464: vertice 2079 -> vertice 2085
+Via 465: vertice 2084 -> vertice 2083
+Via 466: vertice 2075 -> vertice 2084
+Via 467: vertice 2075 -> vertice 2074
+Via 468: vertice 2081 -> vertice 2082
+Via 469: vertice 2080 -> vertice 2081
+Via 470: vertice 2079 -> vertice 2080
+Via 471: vertice 2078 -> vertice 2076
+Via 472: vertice 2077 -> vertice 2078
+Via 473: vertice 1973 -> vertice 2077
+Via 474: vertice 1984 -> vertice 1985
+Via 475: vertice 1983 -> vertice 1984
+Via 476: vertice 1982 -> vertice 1983
+Via 477: vertice 1981 -> vertice 1982
+Via 478: vertice 1980 -> vertice 1981
+Via 479: vertice 1979 -> vertice 1980
+Via 480: vertice 1978 -> vertice 1979
+Via 481: vertice 1977 -> vertice 1978
+Via 482: vertice 1976 -> vertice 1977
+Via 483: vertice 1975 -> vertice 1976
+Via 484: vertice 1974 -> vertice 1975
+Via 485: vertice 1973 -> vertice 1974
+Via 486: vertice 1972 -> vertice 1973
+Via 487: vertice 1971 -> vertice 1972
+Via 488: vertice 1970 -> vertice 1971
+Via 489: vertice 1969 -> vertice 1970
+Via 490: vertice 1968 -> vertice 1969
+Via 491: vertice 1967 -> vertice 1968
+Via 492: vertice 1966 -> vertice 1967
+Via 493: vertice 1965 -> vertice 1966
+Via 494: vertice 2769 -> vertice 1965
+Via 495: vertice 2768 -> vertice 2769
+Via 496: vertice 2767 -> vertice 2768
+Via 497: vertice 2766 -> vertice 2767
+Via 498: vertice 2765 -> vertice 2766
+Via 499: vertice 2764 -> vertice 2765
+Via 500: vertice 2763 -> vertice 2764
+Via 501: vertice 2762 -> vertice 2763
+Via 502: vertice 2761 -> vertice 2762
+Via 503: vertice 2760 -> vertice 2761
+Via 504: vertice 2759 -> vertice 2760
+Via 505: vertice 2758 -> vertice 2759
+Via 506: vertice 2757 -> vertice 2758
+Via 507: vertice 2756 -> vertice 2757
+Via 508: vertice 1050 -> vertice 2756
+Via 509: vertice 2509 -> vertice 2738
+Via 510: vertice 2509 -> vertice 2510
+Via 511: vertice 2737 -> vertice 2509
+Via 512: vertice 2736 -> vertice 2737
+Via 513: vertice 2735 -> vertice 2736
+Via 514: vertice 2734 -> vertice 2735
+Via 515: vertice 2733 -> vertice 2734
+Via 516: vertice 2732 -> vertice 2733
+Via 517: vertice 2731 -> vertice 2732
+Via 518: vertice 2730 -> vertice 2731
+Via 519: vertice 2729 -> vertice 2730
+Via 520: vertice 2728 -> vertice 2729
+Via 521: vertice 2727 -> vertice 2728
+Via 522: vertice 2726 -> vertice 2727
+Via 523: vertice 2725 -> vertice 2726
+Via 524: vertice 2724 -> vertice 2725
+Via 525: vertice 2723 -> vertice 2724
+Via 526: vertice 2722 -> vertice 2723
+Via 527: vertice 2721 -> vertice 2722
+Via 528: vertice 2720 -> vertice 2721
+Via 529: vertice 2719 -> vertice 2720
+Via 530: vertice 2718 -> vertice 2719
+Via 531: vertice 2717 -> vertice 2718
+Via 532: vertice 2716 -> vertice 2717
+Via 533: vertice 2715 -> vertice 2716
+Via 534: vertice 2755 -> vertice 2715
+Via 535: vertice 2754 -> vertice 2755
+Via 536: vertice 2753 -> vertice 2754
+Via 537: vertice 2752 -> vertice 2753
+Via 538: vertice 2751 -> vertice 2752
+Via 539: vertice 2750 -> vertice 2751
+Via 540: vertice 2749 -> vertice 2750
+Via 541: vertice 2748 -> vertice 2749
+Via 542: vertice 2747 -> vertice 2748
+Via 543: vertice 2746 -> vertice 2747
+Via 544: vertice 2745 -> vertice 2746
+Via 545: vertice 2744 -> vertice 2745
+Via 546: vertice 2743 -> vertice 2744
+Via 547: vertice 2742 -> vertice 2743
+Via 548: vertice 2741 -> vertice 2742
+Via 549: vertice 2740 -> vertice 2741
+Via 550: vertice 2739 -> vertice 2740
+Via 551: vertice 1044 -> vertice 2739
+Via 552: vertice 1909 -> vertice 1910
+Via 553: vertice 1908 -> vertice 1909
+Via 554: vertice 1907 -> vertice 1908
+Via 555: vertice 1906 -> vertice 1907
+Via 556: vertice 1905 -> vertice 1906
+Via 557: vertice 1904 -> vertice 1905
+Via 558: vertice 1903 -> vertice 1904
+Via 559: vertice 1902 -> vertice 1903
+Via 560: vertice 1033 -> vertice 1902
+Via 561: vertice 2422 -> vertice 2423
+Via 562: vertice 2421 -> vertice 2422
+Via 563: vertice 2420 -> vertice 2421
+Via 564: vertice 2419 -> vertice 2420
+Via 565: vertice 2418 -> vertice 2419
+Via 566: vertice 2417 -> vertice 2418
+Via 567: vertice 2413 -> vertice 2417
+Via 568: vertice 2938 -> vertice 2939
+Via 569: vertice 2937 -> vertice 2938
+Via 570: vertice 2936 -> vertice 2937
+Via 571: vertice 2935 -> vertice 2936
+Via 572: vertice 2934 -> vertice 2935
+Via 573: vertice 2933 -> vertice 2934
+Via 574: vertice 2932 -> vertice 2933
+Via 575: vertice 2931 -> vertice 2932
+Via 576: vertice 2930 -> vertice 2931
+Via 577: vertice 2407 -> vertice 2930
+Via 578: vertice 2408 -> vertice 2409
+Via 579: vertice 2407 -> vertice 2408
+Via 580: vertice 2405 -> vertice 2404
+Via 581: vertice 2406 -> vertice 2405
+Via 582: vertice 2407 -> vertice 2406
+Via 583: vertice 2929 -> vertice 2407
+Via 584: vertice 2928 -> vertice 2929
+Via 585: vertice 2927 -> vertice 2928
+Via 586: vertice 2926 -> vertice 2927
+Via 587: vertice 2925 -> vertice 2926
+Via 588: vertice 2924 -> vertice 2925
+Via 589: vertice 2410 -> vertice 2924
+Via 590: vertice 2129 -> vertice 2128
+Via 591: vertice 848 -> vertice 847
+Via 592: vertice 849 -> vertice 848
+Via 593: vertice 850 -> vertice 849
+Via 594: vertice 851 -> vertice 850
+Via 595: vertice 852 -> vertice 851
+Via 596: vertice 853 -> vertice 852
+Via 597: vertice 854 -> vertice 853
+Via 598: vertice 855 -> vertice 854
+Via 599: vertice 856 -> vertice 855
+Via 600: vertice 857 -> vertice 856
+Via 601: vertice 858 -> vertice 857
+Via 602: vertice 859 -> vertice 858
+Via 603: vertice 860 -> vertice 859
+Via 604: vertice 861 -> vertice 860
+Via 605: vertice 862 -> vertice 861
+Via 606: vertice 863 -> vertice 862
+Via 607: vertice 864 -> vertice 863
+Via 608: vertice 865 -> vertice 864
+Via 609: vertice 700 -> vertice 865
+Via 610: vertice 2089 -> vertice 2090
+Via 611: vertice 2088 -> vertice 2089
+Via 612: vertice 2584 -> vertice 2583
+Via 613: vertice 2585 -> vertice 2584
+Via 614: vertice 2586 -> vertice 2585
+Via 615: vertice 2587 -> vertice 2586
+Via 616: vertice 2588 -> vertice 2587
+Via 617: vertice 2589 -> vertice 2588
+Via 618: vertice 2590 -> vertice 2589
+Via 619: vertice 2591 -> vertice 2590
+Via 620: vertice 2592 -> vertice 2591
+Via 621: vertice 2593 -> vertice 2592
+Via 622: vertice 2594 -> vertice 2593
+Via 623: vertice 2595 -> vertice 2594
+Via 624: vertice 599 -> vertice 2595
+Via 625: vertice 476 -> vertice 475
+Via 626: vertice 477 -> vertice 476
+Via 627: vertice 478 -> vertice 477
+Via 628: vertice 479 -> vertice 478
+Via 629: vertice 480 -> vertice 479
+Via 630: vertice 481 -> vertice 480
+Via 631: vertice 482 -> vertice 481
+Via 632: vertice 483 -> vertice 482
+Via 633: vertice 484 -> vertice 483
+Via 634: vertice 485 -> vertice 484
+Via 635: vertice 486 -> vertice 485
+Via 636: vertice 487 -> vertice 486
+Via 637: vertice 488 -> vertice 487
+Via 638: vertice 489 -> vertice 488
+Via 639: vertice 490 -> vertice 489
+Via 640: vertice 491 -> vertice 490
+Via 641: vertice 492 -> vertice 491
+Via 642: vertice 493 -> vertice 492
+Via 643: vertice 494 -> vertice 493
+Via 644: vertice 495 -> vertice 494
+Via 645: vertice 496 -> vertice 495
+Via 646: vertice 497 -> vertice 496
+Via 647: vertice 498 -> vertice 497
+Via 648: vertice 499 -> vertice 498
+Via 649: vertice 500 -> vertice 499
+Via 650: vertice 501 -> vertice 500
+Via 651: vertice 502 -> vertice 501
+Via 652: vertice 503 -> vertice 502
+Via 653: vertice 504 -> vertice 503
+Via 654: vertice 505 -> vertice 504
+Via 655: vertice 506 -> vertice 505
+Via 656: vertice 507 -> vertice 506
+Via 657: vertice 508 -> vertice 507
+Via 658: vertice 509 -> vertice 508
+Via 659: vertice 510 -> vertice 509
+Via 660: vertice 511 -> vertice 510
+Via 661: vertice 512 -> vertice 511
+Via 662: vertice 513 -> vertice 512
+Via 663: vertice 514 -> vertice 513
+Via 664: vertice 515 -> vertice 514
+Via 665: vertice 516 -> vertice 515
+Via 666: vertice 517 -> vertice 516
+Via 667: vertice 518 -> vertice 517
+Via 668: vertice 519 -> vertice 518
+Via 669: vertice 520 -> vertice 519
+Via 670: vertice 521 -> vertice 520
+Via 671: vertice 522 -> vertice 521
+Via 672: vertice 523 -> vertice 522
+Via 673: vertice 524 -> vertice 523
+Via 674: vertice 525 -> vertice 524
+Via 675: vertice 526 -> vertice 525
+Via 676: vertice 527 -> vertice 526
+Via 677: vertice 528 -> vertice 527
+Via 678: vertice 529 -> vertice 528
+Via 679: vertice 530 -> vertice 529
+Via 680: vertice 531 -> vertice 530
+Via 681: vertice 532 -> vertice 531
+Via 682: vertice 533 -> vertice 532
+Via 683: vertice 534 -> vertice 533
+Via 684: vertice 535 -> vertice 534
+Via 685: vertice 536 -> vertice 535
+Via 686: vertice 537 -> vertice 536
+Via 687: vertice 538 -> vertice 537
+Via 688: vertice 539 -> vertice 538
+Via 689: vertice 540 -> vertice 539
+Via 690: vertice 541 -> vertice 540
+Via 691: vertice 542 -> vertice 541
+Via 692: vertice 543 -> vertice 542
+Via 693: vertice 544 -> vertice 543
+Via 694: vertice 545 -> vertice 544
+Via 695: vertice 546 -> vertice 545
+Via 696: vertice 547 -> vertice 546
+Via 697: vertice 548 -> vertice 547
+Via 698: vertice 549 -> vertice 548
+Via 699: vertice 550 -> vertice 549
+Via 700: vertice 551 -> vertice 550
+Via 701: vertice 552 -> vertice 551
+Via 702: vertice 553 -> vertice 552
+Via 703: vertice 554 -> vertice 553
+Via 704: vertice 555 -> vertice 554
+Via 705: vertice 556 -> vertice 555
+Via 706: vertice 557 -> vertice 556
+Via 707: vertice 558 -> vertice 557
+Via 708: vertice 559 -> vertice 558
+Via 709: vertice 560 -> vertice 559
+Via 710: vertice 561 -> vertice 560
+Via 711: vertice 562 -> vertice 561
+Via 712: vertice 563 -> vertice 562
+Via 713: vertice 564 -> vertice 563
+Via 714: vertice 565 -> vertice 564
+Via 715: vertice 566 -> vertice 565
+Via 716: vertice 567 -> vertice 566
+Via 717: vertice 568 -> vertice 567
+Via 718: vertice 569 -> vertice 568
+Via 719: vertice 570 -> vertice 569
+Via 720: vertice 571 -> vertice 570
+Via 721: vertice 572 -> vertice 571
+Via 722: vertice 573 -> vertice 572
+Via 723: vertice 574 -> vertice 573
+Via 724: vertice 575 -> vertice 574
+Via 725: vertice 576 -> vertice 575
+Via 726: vertice 577 -> vertice 576
+Via 727: vertice 578 -> vertice 577
+Via 728: vertice 579 -> vertice 578
+Via 729: vertice 580 -> vertice 579
+Via 730: vertice 581 -> vertice 580
+Via 731: vertice 582 -> vertice 581
+Via 732: vertice 583 -> vertice 582
+Via 733: vertice 584 -> vertice 583
+Via 734: vertice 585 -> vertice 584
+Via 735: vertice 586 -> vertice 585
+Via 736: vertice 587 -> vertice 586
+Via 737: vertice 588 -> vertice 587
+Via 738: vertice 589 -> vertice 588
+Via 739: vertice 590 -> vertice 589
+Via 740: vertice 591 -> vertice 590
+Via 741: vertice 592 -> vertice 591
+Via 742: vertice 593 -> vertice 592
+Via 743: vertice 594 -> vertice 593
+Via 744: vertice 595 -> vertice 594
+Via 745: vertice 596 -> vertice 595
+Via 746: vertice 597 -> vertice 596
+Via 747: vertice 598 -> vertice 597
+Via 748: vertice 599 -> vertice 598
+Via 749: vertice 600 -> vertice 599
+Via 750: vertice 1579 -> vertice 1580
+Via 751: vertice 1578 -> vertice 1579
+Via 752: vertice 1577 -> vertice 1578
+Via 753: vertice 1576 -> vertice 1577
+Via 754: vertice 1575 -> vertice 1576
+Via 755: vertice 1574 -> vertice 1575
+Via 756: vertice 1573 -> vertice 1574
+Via 757: vertice 1572 -> vertice 1573
+Via 758: vertice 1571 -> vertice 1572
+Via 759: vertice 1570 -> vertice 1571
+Via 760: vertice 1569 -> vertice 1570
+Via 761: vertice 1568 -> vertice 1569
+Via 762: vertice 1567 -> vertice 1568
+Via 763: vertice 1566 -> vertice 1567
+Via 764: vertice 1565 -> vertice 1566
+Via 765: vertice 1222 -> vertice 1565
+Via 766: vertice 1563 -> vertice 1564
+Via 767: vertice 1562 -> vertice 1563
+Via 768: vertice 1561 -> vertice 1562
+Via 769: vertice 1560 -> vertice 1561
+Via 770: vertice 1559 -> vertice 1560
+Via 771: vertice 1558 -> vertice 1559
+Via 772: vertice 1557 -> vertice 1558
+Via 773: vertice 1556 -> vertice 1557
+Via 774: vertice 1555 -> vertice 1556
+Via 775: vertice 1554 -> vertice 1555
+Via 776: vertice 1553 -> vertice 1554
+Via 777: vertice 1552 -> vertice 1553
+Via 778: vertice 1551 -> vertice 1552
+Via 779: vertice 1550 -> vertice 1551
+Via 780: vertice 1549 -> vertice 1550
+Via 781: vertice 1548 -> vertice 1549
+Via 782: vertice 1547 -> vertice 1548
+Via 783: vertice 1546 -> vertice 1547
+Via 784: vertice 1223 -> vertice 1546
+Via 785: vertice 1520 -> vertice 1519
+Via 786: vertice 1521 -> vertice 1520
+Via 787: vertice 1522 -> vertice 1521
+Via 788: vertice 1523 -> vertice 1522
+Via 789: vertice 1524 -> vertice 1523
+Via 790: vertice 1525 -> vertice 1524
+Via 791: vertice 1526 -> vertice 1525
+Via 792: vertice 1527 -> vertice 1526
+Via 793: vertice 1528 -> vertice 1527
+Via 794: vertice 1529 -> vertice 1528
+Via 795: vertice 1530 -> vertice 1529
+Via 796: vertice 1531 -> vertice 1530
+Via 797: vertice 1532 -> vertice 1531
+Via 798: vertice 1533 -> vertice 1532
+Via 799: vertice 1534 -> vertice 1533
+Via 800: vertice 1535 -> vertice 1534
+Via 801: vertice 1536 -> vertice 1535
+Via 802: vertice 1537 -> vertice 1536
+Via 803: vertice 1538 -> vertice 1537
+Via 804: vertice 1539 -> vertice 1538
+Via 805: vertice 1540 -> vertice 1539
+Via 806: vertice 1541 -> vertice 1540
+Via 807: vertice 1542 -> vertice 1541
+Via 808: vertice 1543 -> vertice 1542
+Via 809: vertice 1544 -> vertice 1543
+Via 810: vertice 1545 -> vertice 1544
+Via 811: vertice 1224 -> vertice 1545
+Via 812: vertice 1228 -> vertice 1229
+Via 813: vertice 1227 -> vertice 1228
+Via 814: vertice 1226 -> vertice 1227
+Via 815: vertice 1225 -> vertice 1226
+Via 816: vertice 1224 -> vertice 1225
+Via 817: vertice 1223 -> vertice 1224
+Via 818: vertice 1222 -> vertice 1223
+Via 819: vertice 1221 -> vertice 1222
+Via 820: vertice 1220 -> vertice 1221
+Via 821: vertice 1219 -> vertice 1220
+Via 822: vertice 1218 -> vertice 1219
+Via 823: vertice 1217 -> vertice 1218
+Via 824: vertice 1216 -> vertice 1217
+Via 825: vertice 1215 -> vertice 1216
+Via 826: vertice 1214 -> vertice 1215
+Via 827: vertice 1213 -> vertice 1214
+Via 828: vertice 1212 -> vertice 1213
+Via 829: vertice 1211 -> vertice 1212
+Via 830: vertice 1210 -> vertice 1211
+Via 831: vertice 1209 -> vertice 1210
+Via 832: vertice 1208 -> vertice 1209
+Via 833: vertice 1207 -> vertice 1208
+Via 834: vertice 1206 -> vertice 1207
+Via 835: vertice 1205 -> vertice 1206
+Via 836: vertice 912 -> vertice 1205
+Via 837: vertice 1610 -> vertice 1611
+Via 838: vertice 1609 -> vertice 1610
+Via 839: vertice 1608 -> vertice 1609
+Via 840: vertice 1607 -> vertice 1608
+Via 841: vertice 1606 -> vertice 1607
+Via 842: vertice 1605 -> vertice 1606
+Via 843: vertice 1604 -> vertice 1605
+Via 844: vertice 1603 -> vertice 1604
+Via 845: vertice 1602 -> vertice 1603
+Via 846: vertice 1601 -> vertice 1602
+Via 847: vertice 1600 -> vertice 1601
+Via 848: vertice 1599 -> vertice 1600
+Via 849: vertice 1598 -> vertice 1599
+Via 850: vertice 1597 -> vertice 1598
+Via 851: vertice 1596 -> vertice 1597
+Via 852: vertice 1595 -> vertice 1596
+Via 853: vertice 1594 -> vertice 1595
+Via 854: vertice 1593 -> vertice 1594
+Via 855: vertice 1592 -> vertice 1593
+Via 856: vertice 1591 -> vertice 1592
+Via 857: vertice 1590 -> vertice 1591
+Via 858: vertice 1589 -> vertice 1590
+Via 859: vertice 1588 -> vertice 1589
+Via 860: vertice 1587 -> vertice 1588
+Via 861: vertice 1586 -> vertice 1587
+Via 862: vertice 1585 -> vertice 1586
+Via 863: vertice 1584 -> vertice 1585
+Via 864: vertice 1583 -> vertice 1584
+Via 865: vertice 1582 -> vertice 1583
+Via 866: vertice 1581 -> vertice 1582
+Via 867: vertice 923 -> vertice 1581
+Via 868: vertice 936 -> vertice 937
+Via 869: vertice 935 -> vertice 936
+Via 870: vertice 934 -> vertice 935
+Via 871: vertice 933 -> vertice 934
+Via 872: vertice 932 -> vertice 933
+Via 873: vertice 931 -> vertice 932
+Via 874: vertice 930 -> vertice 931
+Via 875: vertice 929 -> vertice 930
+Via 876: vertice 928 -> vertice 929
+Via 877: vertice 927 -> vertice 928
+Via 878: vertice 926 -> vertice 927
+Via 879: vertice 925 -> vertice 926
+Via 880: vertice 924 -> vertice 925
+Via 881: vertice 923 -> vertice 924
+Via 882: vertice 716 -> vertice 923
+Via 883: vertice 1613 -> vertice 1612
+Via 884: vertice 1614 -> vertice 1613
+Via 885: vertice 1615 -> vertice 1614
+Via 886: vertice 1616 -> vertice 1615
+Via 887: vertice 1617 -> vertice 1616
+Via 888: vertice 1618 -> vertice 1617
+Via 889: vertice 1619 -> vertice 1618
+Via 890: vertice 1620 -> vertice 1619
+Via 891: vertice 1621 -> vertice 1620
+Via 892: vertice 1622 -> vertice 1621
+Via 893: vertice 1623 -> vertice 1622
+Via 894: vertice 1624 -> vertice 1623
+Via 895: vertice 1625 -> vertice 1624
+Via 896: vertice 1626 -> vertice 1625
+Via 897: vertice 1627 -> vertice 1626
+Via 898: vertice 1628 -> vertice 1627
+Via 899: vertice 1629 -> vertice 1628
+Via 900: vertice 1630 -> vertice 1629
+Via 901: vertice 1631 -> vertice 1630
+Via 902: vertice 1632 -> vertice 1631
+Via 903: vertice 1633 -> vertice 1632
+Via 904: vertice 1634 -> vertice 1633
+Via 905: vertice 1635 -> vertice 1634
+Via 906: vertice 1636 -> vertice 1635
+Via 907: vertice 1637 -> vertice 1636
+Via 908: vertice 1638 -> vertice 1637
+Via 909: vertice 1639 -> vertice 1638
+Via 910: vertice 1640 -> vertice 1639
+Via 911: vertice 1641 -> vertice 1640
+Via 912: vertice 1642 -> vertice 1641
+Via 913: vertice 1643 -> vertice 1642
+Via 914: vertice 1644 -> vertice 1643
+Via 915: vertice 1645 -> vertice 1644
+Via 916: vertice 1646 -> vertice 1645
+Via 917: vertice 1647 -> vertice 1646
+Via 918: vertice 1648 -> vertice 1647
+Via 919: vertice 1649 -> vertice 1648
+Via 920: vertice 1650 -> vertice 1649
+Via 921: vertice 1651 -> vertice 1650
+Via 922: vertice 1652 -> vertice 1651
+Via 923: vertice 1653 -> vertice 1652
+Via 924: vertice 1654 -> vertice 1653
+Via 925: vertice 1655 -> vertice 1654
+Via 926: vertice 1656 -> vertice 1655
+Via 927: vertice 1657 -> vertice 1656
+Via 928: vertice 1658 -> vertice 1657
+Via 929: vertice 1659 -> vertice 1658
+Via 930: vertice 1660 -> vertice 1659
+Via 931: vertice 1661 -> vertice 1660
+Via 932: vertice 1662 -> vertice 1661
+Via 933: vertice 1663 -> vertice 1662
+Via 934: vertice 1664 -> vertice 1663
+Via 935: vertice 1665 -> vertice 1664
+Via 936: vertice 1666 -> vertice 1665
+Via 937: vertice 1667 -> vertice 1666
+Via 938: vertice 1668 -> vertice 1667
+Via 939: vertice 1669 -> vertice 1668
+Via 940: vertice 1670 -> vertice 1669
+Via 941: vertice 1671 -> vertice 1670
+Via 942: vertice 1672 -> vertice 1671
+Via 943: vertice 1673 -> vertice 1672
+Via 944: vertice 1674 -> vertice 1673
+Via 945: vertice 1675 -> vertice 1674
+Via 946: vertice 1676 -> vertice 1675
+Via 947: vertice 1677 -> vertice 1676
+Via 948: vertice 1678 -> vertice 1677
+Via 949: vertice 1679 -> vertice 1678
+Via 950: vertice 1680 -> vertice 1679
+Via 951: vertice 1681 -> vertice 1680
+Via 952: vertice 1682 -> vertice 1681
+Via 953: vertice 1683 -> vertice 1682
+Via 954: vertice 1684 -> vertice 1683
+Via 955: vertice 1685 -> vertice 1684
+Via 956: vertice 1686 -> vertice 1685
+Via 957: vertice 1687 -> vertice 1686
+Via 958: vertice 1688 -> vertice 1687
+Via 959: vertice 1689 -> vertice 1688
+Via 960: vertice 1690 -> vertice 1689
+Via 961: vertice 1691 -> vertice 1690
+Via 962: vertice 1692 -> vertice 1691
+Via 963: vertice 1693 -> vertice 1692
+Via 964: vertice 1694 -> vertice 1693
+Via 965: vertice 1695 -> vertice 1694
+Via 966: vertice 1696 -> vertice 1695
+Via 967: vertice 1697 -> vertice 1696
+Via 968: vertice 1698 -> vertice 1697
+Via 969: vertice 1699 -> vertice 1698
+Via 970: vertice 1700 -> vertice 1699
+Via 971: vertice 1701 -> vertice 1700
+Via 972: vertice 1702 -> vertice 1701
+Via 973: vertice 1703 -> vertice 1702
+Via 974: vertice 1704 -> vertice 1703
+Via 975: vertice 1705 -> vertice 1704
+Via 976: vertice 1706 -> vertice 1705
+Via 977: vertice 723 -> vertice 1706
+Via 978: vertice 903 -> vertice 904
+Via 979: vertice 902 -> vertice 903
+Via 980: vertice 901 -> vertice 902
+Via 981: vertice 900 -> vertice 901
+Via 982: vertice 899 -> vertice 900
+Via 983: vertice 898 -> vertice 899
+Via 984: vertice 897 -> vertice 898
+Via 985: vertice 896 -> vertice 897
+Via 986: vertice 895 -> vertice 896
+Via 987: vertice 894 -> vertice 895
+Via 988: vertice 893 -> vertice 894
+Via 989: vertice 892 -> vertice 893
+Via 990: vertice 2779 -> vertice 2780
+Via 991: vertice 2778 -> vertice 2779
+Via 992: vertice 2777 -> vertice 2778
+Via 993: vertice 2776 -> vertice 2777
+Via 994: vertice 2775 -> vertice 2776
+Via 995: vertice 2774 -> vertice 2775
+Via 996: vertice 2773 -> vertice 2774
+Via 997: vertice 2772 -> vertice 2773
+Via 998: vertice 2771 -> vertice 2772
+Via 999: vertice 2770 -> vertice 2771
+Via 1000: vertice 846 -> vertice 2770
+Via 1001: vertice 2098 -> vertice 2097
+Via 1002: vertice 2099 -> vertice 2098
+Via 1003: vertice 2100 -> vertice 2099
+Via 1004: vertice 2101 -> vertice 2100
+Via 1005: vertice 2102 -> vertice 2101
+Via 1006: vertice 2103 -> vertice 2102
+Via 1007: vertice 2104 -> vertice 2103
+Via 1008: vertice 2105 -> vertice 2104
+Via 1009: vertice 2106 -> vertice 2105
+Via 1010: vertice 2107 -> vertice 2106
+Via 1011: vertice 2108 -> vertice 2107
+Via 1012: vertice 2109 -> vertice 2108
+Via 1013: vertice 2110 -> vertice 2109
+Via 1014: vertice 2111 -> vertice 2110
+Via 1015: vertice 2112 -> vertice 2111
+Via 1016: vertice 2113 -> vertice 2112
+Via 1017: vertice 2114 -> vertice 2113
+Via 1018: vertice 2115 -> vertice 2114
+Via 1019: vertice 2116 -> vertice 2115
+Via 1020: vertice 2117 -> vertice 2116
+Via 1021: vertice 2118 -> vertice 2117
+Via 1022: vertice 2119 -> vertice 2118
+Via 1023: vertice 846 -> vertice 2119
+Via 1024: vertice 845 -> vertice 846
+Via 1025: vertice 844 -> vertice 845
+Via 1026: vertice 843 -> vertice 844
+Via 1027: vertice 842 -> vertice 843
+Via 1028: vertice 841 -> vertice 842
+Via 1029: vertice 840 -> vertice 841
+Via 1030: vertice 839 -> vertice 840
+Via 1031: vertice 838 -> vertice 839
+Via 1032: vertice 837 -> vertice 838
+Via 1033: vertice 836 -> vertice 837
+Via 1034: vertice 835 -> vertice 836
+Via 1035: vertice 834 -> vertice 835
+Via 1036: vertice 833 -> vertice 834
+Via 1037: vertice 832 -> vertice 833
+Via 1038: vertice 831 -> vertice 832
+Via 1039: vertice 830 -> vertice 831
+Via 1040: vertice 829 -> vertice 830
+Via 1041: vertice 828 -> vertice 829
+Via 1042: vertice 827 -> vertice 828
+Via 1043: vertice 826 -> vertice 827
+Via 1044: vertice 825 -> vertice 826
+Via 1045: vertice 824 -> vertice 825
+Via 1046: vertice 823 -> vertice 824
+Via 1047: vertice 822 -> vertice 823
+Via 1048: vertice 804 -> vertice 805
+Via 1049: vertice 1753 -> vertice 1754
+Via 1050: vertice 1752 -> vertice 1753
+Via 1051: vertice 1751 -> vertice 1752
+Via 1052: vertice 1750 -> vertice 1751
+Via 1053: vertice 1749 -> vertice 1750
+Via 1054: vertice 1748 -> vertice 1749
+Via 1055: vertice 1747 -> vertice 1748
+Via 1056: vertice 1746 -> vertice 1747
+Via 1057: vertice 1745 -> vertice 1746
+Via 1058: vertice 1744 -> vertice 1745
+Via 1059: vertice 1743 -> vertice 1744
+Via 1060: vertice 1742 -> vertice 1743
+Via 1061: vertice 1470 -> vertice 1469
+Via 1062: vertice 1471 -> vertice 1470
+Via 1063: vertice 1740 -> vertice 1741
+Via 1064: vertice 1739 -> vertice 1740
+Via 1065: vertice 1738 -> vertice 1739
+Via 1066: vertice 1737 -> vertice 1738
+Via 1067: vertice 1736 -> vertice 1737
+Via 1068: vertice 1735 -> vertice 1736
+Via 1069: vertice 1734 -> vertice 1735
+Via 1070: vertice 1733 -> vertice 1734
+Via 1071: vertice 214 -> vertice 1733
+Via 1072: vertice 1895 -> vertice 1896
+Via 1073: vertice 1894 -> vertice 1895
+Via 1074: vertice 1893 -> vertice 1894
+Via 1075: vertice 1892 -> vertice 1893
+Via 1076: vertice 1891 -> vertice 1892
+Via 1077: vertice 1890 -> vertice 1891
+Via 1078: vertice 1889 -> vertice 1890
+Via 1079: vertice 1888 -> vertice 1889
+Via 1080: vertice 1887 -> vertice 1888
+Via 1081: vertice 1886 -> vertice 1887
+Via 1082: vertice 1885 -> vertice 1886
+Via 1083: vertice 1884 -> vertice 1885
+Via 1084: vertice 1883 -> vertice 1884
+Via 1085: vertice 784 -> vertice 1883
+Via 1086: vertice 2360 -> vertice 2359
+Via 1087: vertice 2361 -> vertice 2360
+Via 1088: vertice 2362 -> vertice 2361
+Via 1089: vertice 2363 -> vertice 2362
+Via 1090: vertice 2364 -> vertice 2363
+Via 1091: vertice 2365 -> vertice 2364
+Via 1092: vertice 2366 -> vertice 2365
+Via 1093: vertice 2367 -> vertice 2366
+Via 1094: vertice 2368 -> vertice 2367
+Via 1095: vertice 2358 -> vertice 2368
+Via 1096: vertice 2355 -> vertice 2354
+Via 1097: vertice 2356 -> vertice 2355
+Via 1098: vertice 2357 -> vertice 2356
+Via 1099: vertice 2358 -> vertice 2357
+Via 1100: vertice 783 -> vertice 2358
+Via 1101: vertice 781 -> vertice 780
+Via 1102: vertice 782 -> vertice 781
+Via 1103: vertice 783 -> vertice 782
+Via 1104: vertice 784 -> vertice 783
+Via 1105: vertice 785 -> vertice 784
+Via 1106: vertice 786 -> vertice 785
+Via 1107: vertice 787 -> vertice 786
+Via 1108: vertice 788 -> vertice 787
+Via 1109: vertice 789 -> vertice 788
+Via 1110: vertice 790 -> vertice 789
+Via 1111: vertice 791 -> vertice 790
+Via 1112: vertice 792 -> vertice 791
+Via 1113: vertice 793 -> vertice 792
+Via 1114: vertice 284 -> vertice 793
+Via 1115: vertice 2261 -> vertice 2262
+Via 1116: vertice 2264 -> vertice 2261
+Via 1117: vertice 2263 -> vertice 2264
+Via 1118: vertice 2265 -> vertice 2263
+Via 1119: vertice 2266 -> vertice 2265
+Via 1120: vertice 2267 -> vertice 2266
+Via 1121: vertice 2268 -> vertice 2267
+Via 1122: vertice 2269 -> vertice 2268
+Via 1123: vertice 2270 -> vertice 2269
+Via 1124: vertice 2271 -> vertice 2270
+Via 1125: vertice 2254 -> vertice 2271
+Via 1126: vertice 2209 -> vertice 2210
+Via 1127: vertice 2208 -> vertice 2209
+Via 1128: vertice 2239 -> vertice 2240
+Via 1129: vertice 2238 -> vertice 2239
+Via 1130: vertice 2237 -> vertice 2238
+Via 1131: vertice 2199 -> vertice 2237
+Via 1132: vertice 1728 -> vertice 1729
+Via 1133: vertice 1727 -> vertice 1728
+Via 1134: vertice 1726 -> vertice 1727
+Via 1135: vertice 1719 -> vertice 1726
+Via 1136: vertice 1724 -> vertice 1723
+Via 1137: vertice 1725 -> vertice 1724
+Via 1138: vertice 1719 -> vertice 1725
+Via 1139: vertice 1720 -> vertice 1719
+Via 1140: vertice 1721 -> vertice 1720
+Via 1141: vertice 1722 -> vertice 1721
+Via 1142: vertice 2498 -> vertice 1722
+Via 1143: vertice 2499 -> vertice 2498
+Via 1144: vertice 2500 -> vertice 2499
+Via 1145: vertice 2501 -> vertice 2500
+Via 1146: vertice 2502 -> vertice 2501
+Via 1147: vertice 2503 -> vertice 2502
+Via 1148: vertice 2504 -> vertice 2503
+Via 1149: vertice 2505 -> vertice 2504
+Via 1150: vertice 2506 -> vertice 2505
+Via 1151: vertice 2507 -> vertice 2506
+Via 1152: vertice 2508 -> vertice 2507
+Via 1153: vertice 2171 -> vertice 2508
+Via 1154: vertice 2171 -> vertice 2172
+Via 1155: vertice 2170 -> vertice 2171
+Via 1156: vertice 2169 -> vertice 2170
+Via 1157: vertice 2235 -> vertice 2234
+Via 1158: vertice 2236 -> vertice 2235
+Via 1159: vertice 2179 -> vertice 2236
+Via 1160: vertice 2232 -> vertice 2233
+Via 1161: vertice 2231 -> vertice 2232
+Via 1162: vertice 2230 -> vertice 2231
+Via 1163: vertice 2182 -> vertice 2230
+Via 1164: vertice 2181 -> vertice 2182
+Via 1165: vertice 2180 -> vertice 2181
+Via 1166: vertice 2179 -> vertice 2180
+Via 1167: vertice 2178 -> vertice 2179
+Via 1168: vertice 2177 -> vertice 2178
+Via 1169: vertice 2176 -> vertice 2177
+Via 1170: vertice 2175 -> vertice 2176
+Via 1171: vertice 2174 -> vertice 2175
+Via 1172: vertice 2173 -> vertice 2174
+Via 1173: vertice 2165 -> vertice 2173
+Via 1174: vertice 2144 -> vertice 2143
+Via 1175: vertice 2145 -> vertice 2144
+Via 1176: vertice 2146 -> vertice 2145
+Via 1177: vertice 2147 -> vertice 2146
+Via 1178: vertice 2148 -> vertice 2147
+Via 1179: vertice 2149 -> vertice 2148
+Via 1180: vertice 2150 -> vertice 2149
+Via 1181: vertice 2151 -> vertice 2150
+Via 1182: vertice 2152 -> vertice 2151
+Via 1183: vertice 2153 -> vertice 2152
+Via 1184: vertice 2154 -> vertice 2153
+Via 1185: vertice 2155 -> vertice 2154
+Via 1186: vertice 2156 -> vertice 2155
+Via 1187: vertice 2157 -> vertice 2156
+Via 1188: vertice 2158 -> vertice 2157
+Via 1189: vertice 2159 -> vertice 2158
+Via 1190: vertice 2160 -> vertice 2159
+Via 1191: vertice 2161 -> vertice 2160
+Via 1192: vertice 2162 -> vertice 2161
+Via 1193: vertice 2163 -> vertice 2162
+Via 1194: vertice 2164 -> vertice 2163
+Via 1195: vertice 2165 -> vertice 2164
+Via 1196: vertice 2166 -> vertice 2165
+Via 1197: vertice 2167 -> vertice 2166
+Via 1198: vertice 2168 -> vertice 2167
+Via 1199: vertice 2169 -> vertice 2168
+Via 1200: vertice 2205 -> vertice 2169
+Via 1201: vertice 2204 -> vertice 2205
+Via 1202: vertice 2203 -> vertice 2204
+Via 1203: vertice 2202 -> vertice 2203
+Via 1204: vertice 2201 -> vertice 2202
+Via 1205: vertice 2200 -> vertice 2201
+Via 1206: vertice 2199 -> vertice 2200
+Via 1207: vertice 2206 -> vertice 2199
+Via 1208: vertice 2207 -> vertice 2206
+Via 1209: vertice 2208 -> vertice 2207
+Via 1210: vertice 2241 -> vertice 2208
+Via 1211: vertice 2242 -> vertice 2241
+Via 1212: vertice 2243 -> vertice 2242
+Via 1213: vertice 2244 -> vertice 2243
+Via 1214: vertice 2245 -> vertice 2244
+Via 1215: vertice 2246 -> vertice 2245
+Via 1216: vertice 2247 -> vertice 2246
+Via 1217: vertice 2193 -> vertice 2247
+Via 1218: vertice 1873 -> vertice 1874
+Via 1219: vertice 1872 -> vertice 1873
+Via 1220: vertice 1871 -> vertice 1872
+Via 1221: vertice 1870 -> vertice 1871
+Via 1222: vertice 288 -> vertice 1870
+Via 1223: vertice 1140 -> vertice 1141
+Via 1224: vertice 1139 -> vertice 1140
+Via 1225: vertice 1138 -> vertice 1139
+Via 1226: vertice 1137 -> vertice 1138
+Via 1227: vertice 1136 -> vertice 1137
+Via 1228: vertice 1135 -> vertice 1136
+Via 1229: vertice 1134 -> vertice 1135
+Via 1230: vertice 1133 -> vertice 1134
+Via 1231: vertice 1132 -> vertice 1133
+Via 1232: vertice 1131 -> vertice 1132
+Via 1233: vertice 1130 -> vertice 1131
+Via 1234: vertice 1129 -> vertice 1130
+Via 1235: vertice 1128 -> vertice 1129
+Via 1236: vertice 1127 -> vertice 1128
+Via 1237: vertice 1126 -> vertice 1127
+Via 1238: vertice 1125 -> vertice 1126
+Via 1239: vertice 1124 -> vertice 1125
+Via 1240: vertice 1123 -> vertice 1124
+Via 1241: vertice 1122 -> vertice 1123
+Via 1242: vertice 1121 -> vertice 1122
+Via 1243: vertice 1120 -> vertice 1121
+Via 1244: vertice 1119 -> vertice 1120
+Via 1245: vertice 1118 -> vertice 1119
+Via 1246: vertice 1117 -> vertice 1118
+Via 1247: vertice 1116 -> vertice 1117
+Via 1248: vertice 1115 -> vertice 1116
+Via 1249: vertice 1114 -> vertice 1115
+Via 1250: vertice 1113 -> vertice 1114
+Via 1251: vertice 1112 -> vertice 1113
+Via 1252: vertice 1111 -> vertice 1112
+Via 1253: vertice 1110 -> vertice 1111
+Via 1254: vertice 1109 -> vertice 1110
+Via 1255: vertice 1108 -> vertice 1109
+Via 1256: vertice 1107 -> vertice 1108
+Via 1257: vertice 1106 -> vertice 1107
+Via 1258: vertice 1105 -> vertice 1106
+Via 1259: vertice 1104 -> vertice 1105
+Via 1260: vertice 1103 -> vertice 1104
+Via 1261: vertice 1102 -> vertice 1103
+Via 1262: vertice 1101 -> vertice 1102
+Via 1263: vertice 1100 -> vertice 1101
+Via 1264: vertice 1099 -> vertice 1100
+Via 1265: vertice 1098 -> vertice 1099
+Via 1266: vertice 1097 -> vertice 1098
+Via 1267: vertice 1096 -> vertice 1097
+Via 1268: vertice 1095 -> vertice 1096
+Via 1269: vertice 1094 -> vertice 1095
+Via 1270: vertice 1093 -> vertice 1094
+Via 1271: vertice 1092 -> vertice 1093
+Via 1272: vertice 1091 -> vertice 1092
+Via 1273: vertice 1090 -> vertice 1091
+Via 1274: vertice 1089 -> vertice 1090
+Via 1275: vertice 1088 -> vertice 1089
+Via 1276: vertice 1087 -> vertice 1088
+Via 1277: vertice 1086 -> vertice 1087
+Via 1278: vertice 1085 -> vertice 1086
+Via 1279: vertice 1084 -> vertice 1085
+Via 1280: vertice 1083 -> vertice 1084
+Via 1281: vertice 1082 -> vertice 1083
+Via 1282: vertice 305 -> vertice 1082
+Via 1283: vertice 2343 -> vertice 2344
+Via 1284: vertice 2342 -> vertice 2343
+Via 1285: vertice 2341 -> vertice 2342
+Via 1286: vertice 2229 -> vertice 2341
+Via 1287: vertice 2212 -> vertice 2211
+Via 1288: vertice 2213 -> vertice 2212
+Via 1289: vertice 2214 -> vertice 2213
+Via 1290: vertice 2215 -> vertice 2214
+Via 1291: vertice 2216 -> vertice 2215
+Via 1292: vertice 2217 -> vertice 2216
+Via 1293: vertice 2218 -> vertice 2217
+Via 1294: vertice 2219 -> vertice 2218
+Via 1295: vertice 2220 -> vertice 2219
+Via 1296: vertice 2221 -> vertice 2220
+Via 1297: vertice 2222 -> vertice 2221
+Via 1298: vertice 2223 -> vertice 2222
+Via 1299: vertice 2224 -> vertice 2223
+Via 1300: vertice 2225 -> vertice 2224
+Via 1301: vertice 2226 -> vertice 2225
+Via 1302: vertice 2227 -> vertice 2226
+Via 1303: vertice 2228 -> vertice 2227
+Via 1304: vertice 2229 -> vertice 2228
+Via 1305: vertice 3140 -> vertice 2229
+Via 1306: vertice 2284 -> vertice 3140
+Via 1307: vertice 2276 -> vertice 2275
+Via 1308: vertice 2277 -> vertice 2276
+Via 1309: vertice 2278 -> vertice 2277
+Via 1310: vertice 2279 -> vertice 2278
+Via 1311: vertice 2280 -> vertice 2279
+Via 1312: vertice 2281 -> vertice 2280
+Via 1313: vertice 2282 -> vertice 2281
+Via 1314: vertice 2283 -> vertice 2282
+Via 1315: vertice 2284 -> vertice 2283
+Via 1316: vertice 3139 -> vertice 2284
+Via 1317: vertice 3138 -> vertice 3139
+Via 1318: vertice 3137 -> vertice 3138
+Via 1319: vertice 3136 -> vertice 3137
+Via 1320: vertice 3135 -> vertice 3136
+Via 1321: vertice 3134 -> vertice 3135
+Via 1322: vertice 3133 -> vertice 3134
+Via 1323: vertice 3132 -> vertice 3133
+Via 1324: vertice 3131 -> vertice 3132
+Via 1325: vertice 3130 -> vertice 3131
+Via 1326: vertice 3129 -> vertice 3130
+Via 1327: vertice 2340 -> vertice 3129
+Via 1328: vertice 2352 -> vertice 2351
+Via 1329: vertice 2353 -> vertice 2352
+Via 1330: vertice 2189 -> vertice 2353
+Via 1331: vertice 2184 -> vertice 2183
+Via 1332: vertice 2185 -> vertice 2184
+Via 1333: vertice 2186 -> vertice 2185
+Via 1334: vertice 2187 -> vertice 2186
+Via 1335: vertice 2188 -> vertice 2187
+Via 1336: vertice 2189 -> vertice 2188
+Via 1337: vertice 2190 -> vertice 2189
+Via 1338: vertice 2191 -> vertice 2190
+Via 1339: vertice 2192 -> vertice 2191
+Via 1340: vertice 2842 -> vertice 2192
+Via 1341: vertice 2260 -> vertice 2842
+Via 1342: vertice 1052 -> vertice 1051
+Via 1343: vertice 1053 -> vertice 1052
+Via 1344: vertice 1054 -> vertice 1053
+Via 1345: vertice 1055 -> vertice 1054
+Via 1346: vertice 1056 -> vertice 1055
+Via 1347: vertice 1900 -> vertice 1901
+Via 1348: vertice 1899 -> vertice 1900
+Via 1349: vertice 1898 -> vertice 1899
+Via 1350: vertice 1897 -> vertice 1898
+Via 1351: vertice 1712 -> vertice 1897
+Via 1352: vertice 2346 -> vertice 2345
+Via 1353: vertice 2347 -> vertice 2346
+Via 1354: vertice 2348 -> vertice 2347
+Via 1355: vertice 2349 -> vertice 2348
+Via 1356: vertice 2350 -> vertice 2349
+Via 1357: vertice 1709 -> vertice 2350
+Via 1358: vertice 1080 -> vertice 1081
+Via 1359: vertice 1079 -> vertice 1080
+Via 1360: vertice 1078 -> vertice 1079
+Via 1361: vertice 1077 -> vertice 1078
+Via 1362: vertice 1076 -> vertice 1077
+Via 1363: vertice 1075 -> vertice 1076
+Via 1364: vertice 1074 -> vertice 1075
+Via 1365: vertice 2305 -> vertice 2306
+Via 1366: vertice 2304 -> vertice 2305
+Via 1367: vertice 2303 -> vertice 2304
+Via 1368: vertice 2289 -> vertice 2303
+Via 1369: vertice 2318 -> vertice 2319
+Via 1370: vertice 2317 -> vertice 2318
+Via 1371: vertice 2316 -> vertice 2317
+Via 1372: vertice 2315 -> vertice 2316
+Via 1373: vertice 2301 -> vertice 2315
+Via 1374: vertice 2308 -> vertice 2307
+Via 1375: vertice 2309 -> vertice 2308
+Via 1376: vertice 2310 -> vertice 2309
+Via 1377: vertice 2311 -> vertice 2310
+Via 1378: vertice 2312 -> vertice 2311
+Via 1379: vertice 2313 -> vertice 2312
+Via 1380: vertice 2288 -> vertice 2313
+Via 1381: vertice 2286 -> vertice 2285
+Via 1382: vertice 2287 -> vertice 2286
+Via 1383: vertice 2288 -> vertice 2287
+Via 1384: vertice 2314 -> vertice 2288
+Via 1385: vertice 2301 -> vertice 2314
+Via 1386: vertice 2302 -> vertice 2301
+Via 1387: vertice 2289 -> vertice 2302
+Via 1388: vertice 2290 -> vertice 2289
+Via 1389: vertice 2291 -> vertice 2290
+Via 1390: vertice 2292 -> vertice 2291
+Via 1391: vertice 2293 -> vertice 2292
+Via 1392: vertice 2294 -> vertice 2293
+Via 1393: vertice 2295 -> vertice 2294
+Via 1394: vertice 2296 -> vertice 2295
+Via 1395: vertice 2297 -> vertice 2296
+Via 1396: vertice 2298 -> vertice 2297
+Via 1397: vertice 2299 -> vertice 2298
+Via 1398: vertice 2300 -> vertice 2299
+Via 1399: vertice 2273 -> vertice 2272
+Via 1400: vertice 2274 -> vertice 2273
+Via 1401: vertice 316 -> vertice 2274
+Via 1402: vertice 2330 -> vertice 2331
+Via 1403: vertice 2329 -> vertice 2330
+Via 1404: vertice 2328 -> vertice 2329
+Via 1405: vertice 2327 -> vertice 2328
+Via 1406: vertice 2326 -> vertice 2327
+Via 1407: vertice 2325 -> vertice 2326
+Via 1408: vertice 2324 -> vertice 2325
+Via 1409: vertice 2323 -> vertice 2324
+Via 1410: vertice 2322 -> vertice 2323
+Via 1411: vertice 2321 -> vertice 2322
+Via 1412: vertice 2320 -> vertice 2321
+Via 1413: vertice 316 -> vertice 2320
+Via 1414: vertice 315 -> vertice 316
+Via 1415: vertice 314 -> vertice 315
+Via 1416: vertice 313 -> vertice 314
+Via 1417: vertice 312 -> vertice 313
+Via 1418: vertice 311 -> vertice 312
+Via 1419: vertice 310 -> vertice 311
+Via 1420: vertice 309 -> vertice 310
+Via 1421: vertice 308 -> vertice 309
+Via 1422: vertice 2370 -> vertice 2369
+Via 1423: vertice 2371 -> vertice 2370
+Via 1424: vertice 2372 -> vertice 2371
+Via 1425: vertice 300 -> vertice 2372
+Via 1426: vertice 299 -> vertice 300
+Via 1427: vertice 298 -> vertice 299
+Via 1428: vertice 297 -> vertice 298
+Via 1429: vertice 296 -> vertice 297
+Via 1430: vertice 295 -> vertice 296
+Via 1431: vertice 294 -> vertice 295
+Via 1432: vertice 293 -> vertice 294
+Via 1433: vertice 292 -> vertice 293
+Via 1434: vertice 291 -> vertice 292
+Via 1435: vertice 290 -> vertice 291
+Via 1436: vertice 289 -> vertice 290
+Via 1437: vertice 288 -> vertice 289
+Via 1438: vertice 287 -> vertice 288
+Via 1439: vertice 286 -> vertice 287
+Via 1440: vertice 285 -> vertice 286
+Via 1441: vertice 284 -> vertice 285
+Via 1442: vertice 283 -> vertice 284
+Via 1443: vertice 282 -> vertice 283
+Via 1444: vertice 281 -> vertice 282
+Via 1445: vertice 280 -> vertice 281
+Via 1446: vertice 279 -> vertice 280
+Via 1447: vertice 278 -> vertice 279
+Via 1448: vertice 277 -> vertice 278
+Via 1449: vertice 276 -> vertice 277
+Via 1450: vertice 275 -> vertice 276
+Via 1451: vertice 274 -> vertice 275
+Via 1452: vertice 273 -> vertice 274
+Via 1453: vertice 272 -> vertice 273
+Via 1454: vertice 271 -> vertice 272
+Via 1455: vertice 270 -> vertice 271
+Via 1456: vertice 269 -> vertice 270
+Via 1457: vertice 268 -> vertice 269
+Via 1458: vertice 267 -> vertice 268
+Via 1459: vertice 266 -> vertice 267
+Via 1460: vertice 265 -> vertice 266
+Via 1461: vertice 264 -> vertice 265
+Via 1462: vertice 263 -> vertice 264
+Via 1463: vertice 262 -> vertice 263
+Via 1464: vertice 261 -> vertice 262
+Via 1465: vertice 260 -> vertice 261
+Via 1466: vertice 259 -> vertice 260
+Via 1467: vertice 258 -> vertice 259
+Via 1468: vertice 257 -> vertice 258
+Via 1469: vertice 256 -> vertice 257
+Via 1470: vertice 255 -> vertice 256
+Via 1471: vertice 254 -> vertice 255
+Via 1472: vertice 253 -> vertice 254
+Via 1473: vertice 252 -> vertice 253
+Via 1474: vertice 251 -> vertice 252
+Via 1475: vertice 250 -> vertice 251
+Via 1476: vertice 249 -> vertice 250
+Via 1477: vertice 248 -> vertice 249
+Via 1478: vertice 247 -> vertice 248
+Via 1479: vertice 246 -> vertice 247
+Via 1480: vertice 245 -> vertice 246
+Via 1481: vertice 244 -> vertice 245
+Via 1482: vertice 243 -> vertice 244
+Via 1483: vertice 242 -> vertice 243
+Via 1484: vertice 241 -> vertice 242
+Via 1485: vertice 240 -> vertice 241
+Via 1486: vertice 239 -> vertice 240
+Via 1487: vertice 238 -> vertice 239
+Via 1488: vertice 237 -> vertice 238
+Via 1489: vertice 236 -> vertice 237
+Via 1490: vertice 235 -> vertice 236
+Via 1491: vertice 234 -> vertice 235
+Via 1492: vertice 233 -> vertice 234
+Via 1493: vertice 232 -> vertice 233
+Via 1494: vertice 231 -> vertice 232
+Via 1495: vertice 230 -> vertice 231
+Via 1496: vertice 229 -> vertice 230
+Via 1497: vertice 228 -> vertice 229
+Via 1498: vertice 227 -> vertice 228
+Via 1499: vertice 226 -> vertice 227
+Via 1500: vertice 225 -> vertice 226
+Via 1501: vertice 224 -> vertice 225
+Via 1502: vertice 223 -> vertice 224
+Via 1503: vertice 222 -> vertice 223
+Via 1504: vertice 221 -> vertice 222
+Via 1505: vertice 220 -> vertice 221
+Via 1506: vertice 219 -> vertice 220
+Via 1507: vertice 218 -> vertice 219
+Via 1508: vertice 217 -> vertice 218
+Via 1509: vertice 216 -> vertice 217
+Via 1510: vertice 215 -> vertice 216
+Via 1511: vertice 214 -> vertice 215
+Via 1512: vertice 213 -> vertice 214
+Via 1513: vertice 212 -> vertice 213
+Via 1514: vertice 211 -> vertice 212
+Via 1515: vertice 210 -> vertice 211
+Via 1516: vertice 209 -> vertice 210
+Via 1517: vertice 208 -> vertice 209
+Via 1518: vertice 207 -> vertice 208
+Via 1519: vertice 206 -> vertice 207
+Via 1520: vertice 205 -> vertice 206
+Via 1521: vertice 204 -> vertice 205
+Via 1522: vertice 203 -> vertice 204
+Via 1523: vertice 202 -> vertice 203
+Via 1524: vertice 201 -> vertice 202
+Via 1525: vertice 200 -> vertice 201
+Via 1526: vertice 199 -> vertice 200
+Via 1527: vertice 2844 -> vertice 2845
+Via 1528: vertice 2429 -> vertice 2430
+Via 1529: vertice 706 -> vertice 2429
+Via 1530: vertice 714 -> vertice 715
+Via 1531: vertice 713 -> vertice 714
+Via 1532: vertice 712 -> vertice 713
+Via 1533: vertice 711 -> vertice 712
+Via 1534: vertice 708 -> vertice 709
+Via 1535: vertice 707 -> vertice 708
+Via 1536: vertice 706 -> vertice 707
+Via 1537: vertice 705 -> vertice 706
+Via 1538: vertice 704 -> vertice 705
+Via 1539: vertice 703 -> vertice 704
+Via 1540: vertice 702 -> vertice 703
+Via 1541: vertice 701 -> vertice 702
+Via 1542: vertice 114 -> vertice 113
+Via 1543: vertice 115 -> vertice 114
+Via 1544: vertice 119 -> vertice 118
+Via 1545: vertice 120 -> vertice 119
+Via 1546: vertice 121 -> vertice 120
+Via 1547: vertice 122 -> vertice 121
+Via 1548: vertice 123 -> vertice 122
+Via 1549: vertice 124 -> vertice 123
+Via 1550: vertice 1802 -> vertice 1803
+Via 1551: vertice 1801 -> vertice 1802
+Via 1552: vertice 1800 -> vertice 1801
+Via 1553: vertice 1799 -> vertice 1800
+Via 1554: vertice 182 -> vertice 1799
+Via 1555: vertice 182 -> vertice 183
+Via 1556: vertice 181 -> vertice 182
+Via 1557: vertice 180 -> vertice 181
+Via 1558: vertice 179 -> vertice 180
+Via 1559: vertice 178 -> vertice 179
+Via 1560: vertice 177 -> vertice 178
+Via 1561: vertice 1258 -> vertice 1259
+Via 1562: vertice 1257 -> vertice 1258
+Via 1563: vertice 1256 -> vertice 1257
+Via 1564: vertice 1255 -> vertice 1256
+Via 1565: vertice 1254 -> vertice 1255
+Via 1566: vertice 1253 -> vertice 1254
+Via 1567: vertice 1252 -> vertice 1253
+Via 1568: vertice 1251 -> vertice 1252
+Via 1569: vertice 1250 -> vertice 1251
+Via 1570: vertice 1249 -> vertice 1250
+Via 1571: vertice 1248 -> vertice 1249
+Via 1572: vertice 1247 -> vertice 1248
+Via 1573: vertice 1246 -> vertice 1247
+Via 1574: vertice 1245 -> vertice 1246
+Via 1575: vertice 1244 -> vertice 1245
+Via 1576: vertice 1243 -> vertice 1244
+Via 1577: vertice 1242 -> vertice 1243
+Via 1578: vertice 1241 -> vertice 1242
+Via 1579: vertice 1240 -> vertice 1241
+Via 1580: vertice 1239 -> vertice 1240
+Via 1581: vertice 1238 -> vertice 1239
+Via 1582: vertice 1237 -> vertice 1238
+Via 1583: vertice 1236 -> vertice 1237
+Via 1584: vertice 1235 -> vertice 1236
+Via 1585: vertice 1234 -> vertice 1235
+Via 1586: vertice 1233 -> vertice 1234
+Via 1587: vertice 1232 -> vertice 1233
+Via 1588: vertice 1231 -> vertice 1232
+Via 1589: vertice 1230 -> vertice 1231
+Via 1590: vertice 1467 -> vertice 1468
+Via 1591: vertice 1466 -> vertice 1467
+Via 1592: vertice 1465 -> vertice 1466
+Via 1593: vertice 1464 -> vertice 1465
+Via 1594: vertice 1463 -> vertice 1464
+Via 1595: vertice 1462 -> vertice 1463
+Via 1596: vertice 1461 -> vertice 1462
+Via 1597: vertice 1460 -> vertice 1461
+Via 1598: vertice 1459 -> vertice 1460
+Via 1599: vertice 1458 -> vertice 1459
+Via 1600: vertice 1457 -> vertice 1458
+Via 1601: vertice 1456 -> vertice 1457
+Via 1602: vertice 1455 -> vertice 1456
+Via 1603: vertice 1454 -> vertice 1455
+Via 1604: vertice 2442 -> vertice 2443
+Via 1605: vertice 2441 -> vertice 2442
+Via 1606: vertice 2440 -> vertice 2441
+Via 1607: vertice 2439 -> vertice 2440
+Via 1608: vertice 2438 -> vertice 2439
+Via 1609: vertice 2437 -> vertice 2438
+Via 1610: vertice 2436 -> vertice 2437
+Via 1611: vertice 2435 -> vertice 2436
+Via 1612: vertice 2434 -> vertice 2435
+Via 1613: vertice 2433 -> vertice 2434
+Via 1614: vertice 2432 -> vertice 2433
+Via 1615: vertice 2431 -> vertice 2432
+
+VERTICES DE ARTICULACAO
+----------------------------------------
+Vertice 1: 2900
+Vertice 2: 2899
+Vertice 3: 2898
+Vertice 4: 2897
+Vertice 5: 2896
+Vertice 6: 2882
+Vertice 7: 111
+Vertice 8: 110
+Vertice 9: 109
+Vertice 10: 108
+Vertice 11: 107
+Vertice 12: 106
+Vertice 13: 105
+Vertice 14: 104
+Vertice 15: 103
+Vertice 16: 102
+Vertice 17: 101
+Vertice 18: 100
+Vertice 19: 99
+Vertice 20: 98
+Vertice 21: 97
+Vertice 22: 96
+Vertice 23: 95
+Vertice 24: 94
+Vertice 25: 93
+Vertice 26: 92
+Vertice 27: 91
+Vertice 28: 90
+Vertice 29: 89
+Vertice 30: 88
+Vertice 31: 87
+Vertice 32: 86
+Vertice 33: 85
+Vertice 34: 84
+Vertice 35: 83
+Vertice 36: 82
+Vertice 37: 81
+Vertice 38: 80
+Vertice 39: 3123
+Vertice 40: 3122
+Vertice 41: 3121
+Vertice 42: 3120
+Vertice 43: 3119
+Vertice 44: 3118
+Vertice 45: 3117
+Vertice 46: 3116
+Vertice 47: 3115
+Vertice 48: 3103
+Vertice 49: 3078
+Vertice 50: 3081
+Vertice 51: 3108
+Vertice 52: 3107
+Vertice 53: 3106
+Vertice 54: 3105
+Vertice 55: 3104
+Vertice 56: 3114
+Vertice 57: 3113
+Vertice 58: 3112
+Vertice 59: 3111
+Vertice 60: 3110
+Vertice 61: 3109
+Vertice 62: 15
+Vertice 63: 1382
+Vertice 64: 1381
+Vertice 65: 1380
+Vertice 66: 1379
+Vertice 67: 1378
+Vertice 68: 1377
+Vertice 69: 1376
+Vertice 70: 1375
+Vertice 71: 1374
+Vertice 72: 1373
+Vertice 73: 1372
+Vertice 74: 1371
+Vertice 75: 1370
+Vertice 76: 1369
+Vertice 77: 1368
+Vertice 78: 1367
+Vertice 79: 1366
+Vertice 80: 1365
+Vertice 81: 1364
+Vertice 82: 1363
+Vertice 83: 1362
+Vertice 84: 1361
+Vertice 85: 1360
+Vertice 86: 1359
+Vertice 87: 1358
+Vertice 88: 1357
+Vertice 89: 1356
+Vertice 90: 1355
+Vertice 91: 1354
+Vertice 92: 1353
+Vertice 93: 1352
+Vertice 94: 1351
+Vertice 95: 1350
+Vertice 96: 1349
+Vertice 97: 1348
+Vertice 98: 1347
+Vertice 99: 1346
+Vertice 100: 1345
+Vertice 101: 1344
+Vertice 102: 1343
+Vertice 103: 1342
+Vertice 104: 1341
+Vertice 105: 1340
+Vertice 106: 1339
+Vertice 107: 1338
+Vertice 108: 1337
+Vertice 109: 1336
+Vertice 110: 1335
+Vertice 111: 1334
+Vertice 112: 1333
+Vertice 113: 1332
+Vertice 114: 1331
+Vertice 115: 1330
+Vertice 116: 1329
+Vertice 117: 1328
+Vertice 118: 1327
+Vertice 119: 1326
+Vertice 120: 1325
+Vertice 121: 1324
+Vertice 122: 1323
+Vertice 123: 1322
+Vertice 124: 1321
+Vertice 125: 1320
+Vertice 126: 1319
+Vertice 127: 1318
+Vertice 128: 1317
+Vertice 129: 1316
+Vertice 130: 1315
+Vertice 131: 1314
+Vertice 132: 1313
+Vertice 133: 1312
+Vertice 134: 1311
+Vertice 135: 1310
+Vertice 136: 1309
+Vertice 137: 1308
+Vertice 138: 1307
+Vertice 139: 1306
+Vertice 140: 1305
+Vertice 141: 1304
+Vertice 142: 1303
+Vertice 143: 1302
+Vertice 144: 1301
+Vertice 145: 1300
+Vertice 146: 1299
+Vertice 147: 1298
+Vertice 148: 1297
+Vertice 149: 1296
+Vertice 150: 1295
+Vertice 151: 1294
+Vertice 152: 473
+Vertice 153: 472
+Vertice 154: 471
+Vertice 155: 470
+Vertice 156: 469
+Vertice 157: 468
+Vertice 158: 467
+Vertice 159: 466
+Vertice 160: 465
+Vertice 161: 464
+Vertice 162: 463
+Vertice 163: 462
+Vertice 164: 461
+Vertice 165: 460
+Vertice 166: 459
+Vertice 167: 458
+Vertice 168: 457
+Vertice 169: 456
+Vertice 170: 455
+Vertice 171: 454
+Vertice 172: 453
+Vertice 173: 452
+Vertice 174: 451
+Vertice 175: 450
+Vertice 176: 449
+Vertice 177: 448
+Vertice 178: 447
+Vertice 179: 446
+Vertice 180: 445
+Vertice 181: 444
+Vertice 182: 443
+Vertice 183: 442
+Vertice 184: 441
+Vertice 185: 440
+Vertice 186: 439
+Vertice 187: 438
+Vertice 188: 437
+Vertice 189: 436
+Vertice 190: 435
+Vertice 191: 434
+Vertice 192: 433
+Vertice 193: 432
+Vertice 194: 431
+Vertice 195: 430
+Vertice 196: 429
+Vertice 197: 428
+Vertice 198: 427
+Vertice 199: 426
+Vertice 200: 425
+Vertice 201: 424
+Vertice 202: 423
+Vertice 203: 422
+Vertice 204: 421
+Vertice 205: 420
+Vertice 206: 419
+Vertice 207: 418
+Vertice 208: 417
+Vertice 209: 416
+Vertice 210: 415
+Vertice 211: 414
+Vertice 212: 413
+Vertice 213: 412
+Vertice 214: 411
+Vertice 215: 410
+Vertice 216: 409
+Vertice 217: 408
+Vertice 218: 407
+Vertice 219: 406
+Vertice 220: 405
+Vertice 221: 2615
+Vertice 222: 2614
+Vertice 223: 2613
+Vertice 224: 2612
+Vertice 225: 2611
+Vertice 226: 2610
+Vertice 227: 2609
+Vertice 228: 2608
+Vertice 229: 2607
+Vertice 230: 2606
+Vertice 231: 2605
+Vertice 232: 2604
+Vertice 233: 2603
+Vertice 234: 2602
+Vertice 235: 2601
+Vertice 236: 2600
+Vertice 237: 2599
+Vertice 238: 2598
+Vertice 239: 189
+Vertice 240: 170
+Vertice 241: 171
+Vertice 242: 172
+Vertice 243: 173
+Vertice 244: 174
+Vertice 245: 175
+Vertice 246: 176
+Vertice 247: 2451
+Vertice 248: 1768
+Vertice 249: 2468
+Vertice 250: 2467
+Vertice 251: 2466
+Vertice 252: 2465
+Vertice 253: 2464
+Vertice 254: 2463
+Vertice 255: 2462
+Vertice 256: 2461
+Vertice 257: 2460
+Vertice 258: 2459
+Vertice 259: 2458
+Vertice 260: 2457
+Vertice 261: 2456
+Vertice 262: 2455
+Vertice 263: 2454
+Vertice 264: 2453
+Vertice 265: 2452
+Vertice 266: 1766
+Vertice 267: 2471
+Vertice 268: 2472
+Vertice 269: 2473
+Vertice 270: 2474
+Vertice 271: 2475
+Vertice 272: 2476
+Vertice 273: 2477
+Vertice 274: 2478
+Vertice 275: 2479
+Vertice 276: 2480
+Vertice 277: 2481
+Vertice 278: 2482
+Vertice 279: 2483
+Vertice 280: 2484
+Vertice 281: 2485
+Vertice 282: 2486
+Vertice 283: 2487
+Vertice 284: 2488
+Vertice 285: 2489
+Vertice 286: 2490
+Vertice 287: 2491
+Vertice 288: 2492
+Vertice 289: 2493
+Vertice 290: 2494
+Vertice 291: 2495
+Vertice 292: 2496
+Vertice 293: 2497
+Vertice 294: 2834
+Vertice 295: 2835
+Vertice 296: 2836
+Vertice 297: 1742
+Vertice 298: 1191
+Vertice 299: 2449
+Vertice 300: 1181
+Vertice 301: 2446
+Vertice 302: 2445
+Vertice 303: 2444
+Vertice 304: 1167
+Vertice 305: 1731
+Vertice 306: 1732
+Vertice 307: 1164
+Vertice 308: 1142
+Vertice 309: 957
+Vertice 310: 958
+Vertice 311: 972
+Vertice 312: 968
+Vertice 313: 965
+Vertice 314: 966
+Vertice 315: 969
+Vertice 316: 970
+Vertice 317: 971
+Vertice 318: 1475
+Vertice 319: 1474
+Vertice 320: 1473
+Vertice 321: 1472
+Vertice 322: 806
+Vertice 323: 2596
+Vertice 324: 905
+Vertice 325: 2635
+Vertice 326: 2634
+Vertice 327: 911
+Vertice 328: 2092
+Vertice 329: 2093
+Vertice 330: 2094
+Vertice 331: 2095
+Vertice 332: 2096
+Vertice 333: 610
+Vertice 334: 2121
+Vertice 335: 629
+Vertice 336: 2709
+Vertice 337: 2710
+Vertice 338: 2711
+Vertice 339: 2712
+Vertice 340: 1864
+Vertice 341: 1868
+Vertice 342: 1867
+Vertice 343: 1866
+Vertice 344: 1865
+Vertice 345: 1936
+Vertice 346: 1918
+Vertice 347: 1923
+Vertice 348: 1922
+Vertice 349: 1921
+Vertice 350: 1920
+Vertice 351: 1919
+Vertice 352: 1964
+Vertice 353: 1963
+Vertice 354: 1962
+Vertice 355: 1961
+Vertice 356: 1960
+Vertice 357: 1959
+Vertice 358: 1958
+Vertice 359: 1957
+Vertice 360: 1956
+Vertice 361: 1955
+Vertice 362: 1954
+Vertice 363: 1953
+Vertice 364: 1952
+Vertice 365: 1951
+Vertice 366: 1950
+Vertice 367: 1949
+Vertice 368: 1948
+Vertice 369: 1947
+Vertice 370: 1946
+Vertice 371: 1945
+Vertice 372: 1944
+Vertice 373: 1943
+Vertice 374: 1942
+Vertice 375: 1941
+Vertice 376: 1940
+Vertice 377: 1939
+Vertice 378: 1938
+Vertice 379: 1937
+Vertice 380: 2713
+Vertice 381: 2714
+Vertice 382: 1804
+Vertice 383: 1844
+Vertice 384: 1843
+Vertice 385: 1842
+Vertice 386: 1841
+Vertice 387: 1840
+Vertice 388: 1839
+Vertice 389: 1838
+Vertice 390: 1837
+Vertice 391: 1836
+Vertice 392: 1835
+Vertice 393: 1834
+Vertice 394: 1833
+Vertice 395: 1832
+Vertice 396: 1831
+Vertice 397: 1830
+Vertice 398: 1829
+Vertice 399: 1828
+Vertice 400: 1827
+Vertice 401: 1826
+Vertice 402: 1825
+Vertice 403: 1824
+Vertice 404: 1823
+Vertice 405: 1822
+Vertice 406: 1821
+Vertice 407: 1820
+Vertice 408: 1819
+Vertice 409: 1818
+Vertice 410: 1816
+Vertice 411: 1815
+Vertice 412: 1814
+Vertice 413: 1813
+Vertice 414: 1812
+Vertice 415: 1811
+Vertice 416: 1810
+Vertice 417: 1809
+Vertice 418: 1808
+Vertice 419: 1807
+Vertice 420: 1806
+Vertice 421: 1805
+Vertice 422: 1863
+Vertice 423: 1862
+Vertice 424: 1861
+Vertice 425: 1860
+Vertice 426: 1859
+Vertice 427: 1858
+Vertice 428: 1857
+Vertice 429: 1856
+Vertice 430: 1855
+Vertice 431: 1854
+Vertice 432: 1853
+Vertice 433: 1852
+Vertice 434: 1851
+Vertice 435: 1850
+Vertice 436: 1849
+Vertice 437: 1848
+Vertice 438: 1847
+Vertice 439: 1846
+Vertice 440: 2782
+Vertice 441: 2783
+Vertice 442: 2784
+Vertice 443: 2549
+Vertice 444: 1998
+Vertice 445: 1997
+Vertice 446: 1996
+Vertice 447: 1995
+Vertice 448: 1994
+Vertice 449: 1993
+Vertice 450: 1992
+Vertice 451: 1991
+Vertice 452: 1990
+Vertice 453: 1989
+Vertice 454: 1988
+Vertice 455: 1987
+Vertice 456: 1986
+Vertice 457: 1971
+Vertice 458: 2086
+Vertice 459: 2085
+Vertice 460: 2079
+Vertice 461: 2084
+Vertice 462: 2075
+Vertice 463: 2081
+Vertice 464: 2080
+Vertice 465: 2076
+Vertice 466: 2078
+Vertice 467: 2077
+Vertice 468: 1973
+Vertice 469: 1984
+Vertice 470: 1983
+Vertice 471: 1982
+Vertice 472: 1981
+Vertice 473: 1980
+Vertice 474: 1979
+Vertice 475: 1978
+Vertice 476: 1977
+Vertice 477: 1976
+Vertice 478: 1975
+Vertice 479: 1974
+Vertice 480: 1972
+Vertice 481: 1970
+Vertice 482: 1969
+Vertice 483: 1968
+Vertice 484: 1967
+Vertice 485: 1966
+Vertice 486: 1965
+Vertice 487: 2769
+Vertice 488: 2768
+Vertice 489: 2767
+Vertice 490: 2766
+Vertice 491: 2765
+Vertice 492: 2764
+Vertice 493: 2763
+Vertice 494: 2762
+Vertice 495: 2761
+Vertice 496: 2760
+Vertice 497: 2759
+Vertice 498: 2758
+Vertice 499: 2757
+Vertice 500: 2756
+Vertice 501: 1050
+Vertice 502: 2509
+Vertice 503: 2737
+Vertice 504: 2736
+Vertice 505: 2735
+Vertice 506: 2734
+Vertice 507: 2733
+Vertice 508: 2732
+Vertice 509: 2731
+Vertice 510: 2730
+Vertice 511: 2729
+Vertice 512: 2728
+Vertice 513: 2727
+Vertice 514: 2726
+Vertice 515: 2725
+Vertice 516: 2724
+Vertice 517: 2723
+Vertice 518: 2722
+Vertice 519: 2721
+Vertice 520: 2720
+Vertice 521: 2719
+Vertice 522: 2718
+Vertice 523: 2717
+Vertice 524: 2716
+Vertice 525: 2715
+Vertice 526: 2755
+Vertice 527: 2754
+Vertice 528: 2753
+Vertice 529: 2752
+Vertice 530: 2751
+Vertice 531: 2750
+Vertice 532: 2749
+Vertice 533: 2748
+Vertice 534: 2747
+Vertice 535: 2746
+Vertice 536: 2745
+Vertice 537: 2744
+Vertice 538: 2743
+Vertice 539: 2742
+Vertice 540: 2741
+Vertice 541: 2740
+Vertice 542: 2739
+Vertice 543: 1044
+Vertice 544: 1909
+Vertice 545: 1908
+Vertice 546: 1907
+Vertice 547: 1906
+Vertice 548: 1905
+Vertice 549: 1904
+Vertice 550: 1903
+Vertice 551: 1902
+Vertice 552: 1033
+Vertice 553: 2422
+Vertice 554: 2421
+Vertice 555: 2420
+Vertice 556: 2419
+Vertice 557: 2418
+Vertice 558: 2417
+Vertice 559: 2413
+Vertice 560: 2938
+Vertice 561: 2937
+Vertice 562: 2936
+Vertice 563: 2935
+Vertice 564: 2934
+Vertice 565: 2933
+Vertice 566: 2932
+Vertice 567: 2931
+Vertice 568: 2930
+Vertice 569: 2407
+Vertice 570: 2408
+Vertice 571: 2405
+Vertice 572: 2406
+Vertice 573: 2929
+Vertice 574: 2928
+Vertice 575: 2927
+Vertice 576: 2926
+Vertice 577: 2925
+Vertice 578: 2924
+Vertice 579: 2410
+Vertice 580: 2129
+Vertice 581: 848
+Vertice 582: 849
+Vertice 583: 850
+Vertice 584: 851
+Vertice 585: 852
+Vertice 586: 853
+Vertice 587: 854
+Vertice 588: 855
+Vertice 589: 856
+Vertice 590: 857
+Vertice 591: 858
+Vertice 592: 859
+Vertice 593: 860
+Vertice 594: 861
+Vertice 595: 862
+Vertice 596: 863
+Vertice 597: 864
+Vertice 598: 865
+Vertice 599: 700
+Vertice 600: 2089
+Vertice 601: 2088
+Vertice 602: 2584
+Vertice 603: 2585
+Vertice 604: 2586
+Vertice 605: 2587
+Vertice 606: 2588
+Vertice 607: 2589
+Vertice 608: 2590
+Vertice 609: 2591
+Vertice 610: 2592
+Vertice 611: 2593
+Vertice 612: 2594
+Vertice 613: 2595
+Vertice 614: 599
+Vertice 615: 476
+Vertice 616: 477
+Vertice 617: 478
+Vertice 618: 479
+Vertice 619: 480
+Vertice 620: 481
+Vertice 621: 482
+Vertice 622: 483
+Vertice 623: 484
+Vertice 624: 485
+Vertice 625: 486
+Vertice 626: 487
+Vertice 627: 488
+Vertice 628: 489
+Vertice 629: 490
+Vertice 630: 491
+Vertice 631: 492
+Vertice 632: 493
+Vertice 633: 494
+Vertice 634: 495
+Vertice 635: 496
+Vertice 636: 497
+Vertice 637: 498
+Vertice 638: 499
+Vertice 639: 500
+Vertice 640: 501
+Vertice 641: 502
+Vertice 642: 503
+Vertice 643: 504
+Vertice 644: 505
+Vertice 645: 506
+Vertice 646: 507
+Vertice 647: 508
+Vertice 648: 509
+Vertice 649: 510
+Vertice 650: 511
+Vertice 651: 512
+Vertice 652: 513
+Vertice 653: 514
+Vertice 654: 515
+Vertice 655: 516
+Vertice 656: 517
+Vertice 657: 518
+Vertice 658: 519
+Vertice 659: 520
+Vertice 660: 521
+Vertice 661: 522
+Vertice 662: 523
+Vertice 663: 524
+Vertice 664: 525
+Vertice 665: 526
+Vertice 666: 527
+Vertice 667: 528
+Vertice 668: 529
+Vertice 669: 530
+Vertice 670: 531
+Vertice 671: 532
+Vertice 672: 533
+Vertice 673: 534
+Vertice 674: 535
+Vertice 675: 536
+Vertice 676: 537
+Vertice 677: 538
+Vertice 678: 539
+Vertice 679: 540
+Vertice 680: 541
+Vertice 681: 542
+Vertice 682: 543
+Vertice 683: 544
+Vertice 684: 545
+Vertice 685: 546
+Vertice 686: 547
+Vertice 687: 548
+Vertice 688: 549
+Vertice 689: 550
+Vertice 690: 551
+Vertice 691: 552
+Vertice 692: 553
+Vertice 693: 554
+Vertice 694: 555
+Vertice 695: 556
+Vertice 696: 557
+Vertice 697: 558
+Vertice 698: 559
+Vertice 699: 560
+Vertice 700: 561
+Vertice 701: 562
+Vertice 702: 563
+Vertice 703: 564
+Vertice 704: 565
+Vertice 705: 566
+Vertice 706: 567
+Vertice 707: 568
+Vertice 708: 569
+Vertice 709: 570
+Vertice 710: 571
+Vertice 711: 572
+Vertice 712: 573
+Vertice 713: 574
+Vertice 714: 575
+Vertice 715: 576
+Vertice 716: 577
+Vertice 717: 578
+Vertice 718: 579
+Vertice 719: 580
+Vertice 720: 581
+Vertice 721: 582
+Vertice 722: 583
+Vertice 723: 584
+Vertice 724: 585
+Vertice 725: 586
+Vertice 726: 587
+Vertice 727: 588
+Vertice 728: 589
+Vertice 729: 590
+Vertice 730: 591
+Vertice 731: 592
+Vertice 732: 593
+Vertice 733: 594
+Vertice 734: 595
+Vertice 735: 596
+Vertice 736: 597
+Vertice 737: 598
+Vertice 738: 600
+Vertice 739: 1579
+Vertice 740: 1578
+Vertice 741: 1577
+Vertice 742: 1576
+Vertice 743: 1575
+Vertice 744: 1574
+Vertice 745: 1573
+Vertice 746: 1572
+Vertice 747: 1571
+Vertice 748: 1570
+Vertice 749: 1569
+Vertice 750: 1568
+Vertice 751: 1567
+Vertice 752: 1566
+Vertice 753: 1565
+Vertice 754: 1222
+Vertice 755: 1563
+Vertice 756: 1562
+Vertice 757: 1561
+Vertice 758: 1560
+Vertice 759: 1559
+Vertice 760: 1558
+Vertice 761: 1557
+Vertice 762: 1556
+Vertice 763: 1555
+Vertice 764: 1554
+Vertice 765: 1553
+Vertice 766: 1552
+Vertice 767: 1551
+Vertice 768: 1550
+Vertice 769: 1549
+Vertice 770: 1548
+Vertice 771: 1547
+Vertice 772: 1546
+Vertice 773: 1223
+Vertice 774: 1520
+Vertice 775: 1521
+Vertice 776: 1522
+Vertice 777: 1523
+Vertice 778: 1524
+Vertice 779: 1525
+Vertice 780: 1526
+Vertice 781: 1527
+Vertice 782: 1528
+Vertice 783: 1529
+Vertice 784: 1530
+Vertice 785: 1531
+Vertice 786: 1532
+Vertice 787: 1533
+Vertice 788: 1534
+Vertice 789: 1535
+Vertice 790: 1536
+Vertice 791: 1537
+Vertice 792: 1538
+Vertice 793: 1539
+Vertice 794: 1540
+Vertice 795: 1541
+Vertice 796: 1542
+Vertice 797: 1543
+Vertice 798: 1544
+Vertice 799: 1545
+Vertice 800: 1224
+Vertice 801: 1228
+Vertice 802: 1227
+Vertice 803: 1226
+Vertice 804: 1225
+Vertice 805: 1221
+Vertice 806: 1220
+Vertice 807: 1219
+Vertice 808: 1218
+Vertice 809: 1217
+Vertice 810: 1216
+Vertice 811: 1215
+Vertice 812: 1214
+Vertice 813: 1213
+Vertice 814: 1212
+Vertice 815: 1211
+Vertice 816: 1210
+Vertice 817: 1209
+Vertice 818: 1208
+Vertice 819: 1207
+Vertice 820: 1206
+Vertice 821: 1205
+Vertice 822: 912
+Vertice 823: 1610
+Vertice 824: 1609
+Vertice 825: 1608
+Vertice 826: 1607
+Vertice 827: 1606
+Vertice 828: 1605
+Vertice 829: 1604
+Vertice 830: 1603
+Vertice 831: 1602
+Vertice 832: 1601
+Vertice 833: 1600
+Vertice 834: 1599
+Vertice 835: 1598
+Vertice 836: 1597
+Vertice 837: 1596
+Vertice 838: 1595
+Vertice 839: 1594
+Vertice 840: 1593
+Vertice 841: 1592
+Vertice 842: 1591
+Vertice 843: 1590
+Vertice 844: 1589
+Vertice 845: 1588
+Vertice 846: 1587
+Vertice 847: 1586
+Vertice 848: 1585
+Vertice 849: 1584
+Vertice 850: 1583
+Vertice 851: 1582
+Vertice 852: 1581
+Vertice 853: 923
+Vertice 854: 936
+Vertice 855: 935
+Vertice 856: 934
+Vertice 857: 933
+Vertice 858: 932
+Vertice 859: 931
+Vertice 860: 930
+Vertice 861: 929
+Vertice 862: 928
+Vertice 863: 927
+Vertice 864: 926
+Vertice 865: 925
+Vertice 866: 924
+Vertice 867: 716
+Vertice 868: 1613
+Vertice 869: 1614
+Vertice 870: 1615
+Vertice 871: 1616
+Vertice 872: 1617
+Vertice 873: 1618
+Vertice 874: 1619
+Vertice 875: 1620
+Vertice 876: 1621
+Vertice 877: 1622
+Vertice 878: 1623
+Vertice 879: 1624
+Vertice 880: 1625
+Vertice 881: 1626
+Vertice 882: 1627
+Vertice 883: 1628
+Vertice 884: 1629
+Vertice 885: 1630
+Vertice 886: 1631
+Vertice 887: 1632
+Vertice 888: 1633
+Vertice 889: 1634
+Vertice 890: 1635
+Vertice 891: 1636
+Vertice 892: 1637
+Vertice 893: 1638
+Vertice 894: 1639
+Vertice 895: 1640
+Vertice 896: 1641
+Vertice 897: 1642
+Vertice 898: 1643
+Vertice 899: 1644
+Vertice 900: 1645
+Vertice 901: 1646
+Vertice 902: 1647
+Vertice 903: 1648
+Vertice 904: 1649
+Vertice 905: 1650
+Vertice 906: 1651
+Vertice 907: 1652
+Vertice 908: 1653
+Vertice 909: 1654
+Vertice 910: 1655
+Vertice 911: 1656
+Vertice 912: 1657
+Vertice 913: 1658
+Vertice 914: 1659
+Vertice 915: 1660
+Vertice 916: 1661
+Vertice 917: 1662
+Vertice 918: 1663
+Vertice 919: 1664
+Vertice 920: 1665
+Vertice 921: 1666
+Vertice 922: 1667
+Vertice 923: 1668
+Vertice 924: 1669
+Vertice 925: 1670
+Vertice 926: 1671
+Vertice 927: 1672
+Vertice 928: 1673
+Vertice 929: 1674
+Vertice 930: 1675
+Vertice 931: 1676
+Vertice 932: 1677
+Vertice 933: 1678
+Vertice 934: 1679
+Vertice 935: 1680
+Vertice 936: 1681
+Vertice 937: 1682
+Vertice 938: 1683
+Vertice 939: 1684
+Vertice 940: 1685
+Vertice 941: 1686
+Vertice 942: 1687
+Vertice 943: 1688
+Vertice 944: 1689
+Vertice 945: 1690
+Vertice 946: 1691
+Vertice 947: 1692
+Vertice 948: 1693
+Vertice 949: 1694
+Vertice 950: 1695
+Vertice 951: 1696
+Vertice 952: 1697
+Vertice 953: 1698
+Vertice 954: 1699
+Vertice 955: 1700
+Vertice 956: 1701
+Vertice 957: 1702
+Vertice 958: 1703
+Vertice 959: 1704
+Vertice 960: 1705
+Vertice 961: 1706
+Vertice 962: 723
+Vertice 963: 903
+Vertice 964: 902
+Vertice 965: 901
+Vertice 966: 900
+Vertice 967: 899
+Vertice 968: 898
+Vertice 969: 897
+Vertice 970: 896
+Vertice 971: 895
+Vertice 972: 894
+Vertice 973: 893
+Vertice 974: 892
+Vertice 975: 2779
+Vertice 976: 2778
+Vertice 977: 2777
+Vertice 978: 2776
+Vertice 979: 2775
+Vertice 980: 2774
+Vertice 981: 2773
+Vertice 982: 2772
+Vertice 983: 2771
+Vertice 984: 2770
+Vertice 985: 846
+Vertice 986: 2098
+Vertice 987: 2099
+Vertice 988: 2100
+Vertice 989: 2101
+Vertice 990: 2102
+Vertice 991: 2103
+Vertice 992: 2104
+Vertice 993: 2105
+Vertice 994: 2106
+Vertice 995: 2107
+Vertice 996: 2108
+Vertice 997: 2109
+Vertice 998: 2110
+Vertice 999: 2111
+Vertice 1000: 2112
+Vertice 1001: 2113
+Vertice 1002: 2114
+Vertice 1003: 2115
+Vertice 1004: 2116
+Vertice 1005: 2117
+Vertice 1006: 2118
+Vertice 1007: 2119
+Vertice 1008: 845
+Vertice 1009: 844
+Vertice 1010: 843
+Vertice 1011: 842
+Vertice 1012: 841
+Vertice 1013: 840
+Vertice 1014: 839
+Vertice 1015: 838
+Vertice 1016: 837
+Vertice 1017: 836
+Vertice 1018: 835
+Vertice 1019: 834
+Vertice 1020: 833
+Vertice 1021: 832
+Vertice 1022: 831
+Vertice 1023: 830
+Vertice 1024: 829
+Vertice 1025: 828
+Vertice 1026: 827
+Vertice 1027: 826
+Vertice 1028: 825
+Vertice 1029: 824
+Vertice 1030: 823
+Vertice 1031: 822
+Vertice 1032: 804
+Vertice 1033: 1753
+Vertice 1034: 1752
+Vertice 1035: 1751
+Vertice 1036: 1750
+Vertice 1037: 1749
+Vertice 1038: 1748
+Vertice 1039: 1747
+Vertice 1040: 1746
+Vertice 1041: 1745
+Vertice 1042: 1744
+Vertice 1043: 1743
+Vertice 1044: 1470
+Vertice 1045: 1471
+Vertice 1046: 1740
+Vertice 1047: 1739
+Vertice 1048: 1738
+Vertice 1049: 1737
+Vertice 1050: 1736
+Vertice 1051: 1735
+Vertice 1052: 1734
+Vertice 1053: 1733
+Vertice 1054: 214
+Vertice 1055: 1895
+Vertice 1056: 1894
+Vertice 1057: 1893
+Vertice 1058: 1892
+Vertice 1059: 1891
+Vertice 1060: 1890
+Vertice 1061: 1889
+Vertice 1062: 1888
+Vertice 1063: 1887
+Vertice 1064: 1886
+Vertice 1065: 1885
+Vertice 1066: 1884
+Vertice 1067: 1883
+Vertice 1068: 784
+Vertice 1069: 2360
+Vertice 1070: 2361
+Vertice 1071: 2362
+Vertice 1072: 2363
+Vertice 1073: 2364
+Vertice 1074: 2365
+Vertice 1075: 2366
+Vertice 1076: 2367
+Vertice 1077: 2368
+Vertice 1078: 2358
+Vertice 1079: 2355
+Vertice 1080: 2356
+Vertice 1081: 2357
+Vertice 1082: 783
+Vertice 1083: 781
+Vertice 1084: 782
+Vertice 1085: 785
+Vertice 1086: 786
+Vertice 1087: 787
+Vertice 1088: 788
+Vertice 1089: 789
+Vertice 1090: 790
+Vertice 1091: 791
+Vertice 1092: 792
+Vertice 1093: 793
+Vertice 1094: 284
+Vertice 1095: 2261
+Vertice 1096: 2264
+Vertice 1097: 2263
+Vertice 1098: 2265
+Vertice 1099: 2266
+Vertice 1100: 2267
+Vertice 1101: 2268
+Vertice 1102: 2269
+Vertice 1103: 2270
+Vertice 1104: 2271
+Vertice 1105: 2254
+Vertice 1106: 2209
+Vertice 1107: 2208
+Vertice 1108: 2239
+Vertice 1109: 2238
+Vertice 1110: 2237
+Vertice 1111: 2199
+Vertice 1112: 1728
+Vertice 1113: 1727
+Vertice 1114: 1726
+Vertice 1115: 1719
+Vertice 1116: 1724
+Vertice 1117: 1725
+Vertice 1118: 1720
+Vertice 1119: 1721
+Vertice 1120: 1722
+Vertice 1121: 2498
+Vertice 1122: 2499
+Vertice 1123: 2500
+Vertice 1124: 2501
+Vertice 1125: 2502
+Vertice 1126: 2503
+Vertice 1127: 2504
+Vertice 1128: 2505
+Vertice 1129: 2506
+Vertice 1130: 2507
+Vertice 1131: 2508
+Vertice 1132: 2171
+Vertice 1133: 2170
+Vertice 1134: 2169
+Vertice 1135: 2235
+Vertice 1136: 2236
+Vertice 1137: 2179
+Vertice 1138: 2232
+Vertice 1139: 2231
+Vertice 1140: 2230
+Vertice 1141: 2182
+Vertice 1142: 2181
+Vertice 1143: 2180
+Vertice 1144: 2178
+Vertice 1145: 2177
+Vertice 1146: 2176
+Vertice 1147: 2175
+Vertice 1148: 2174
+Vertice 1149: 2173
+Vertice 1150: 2165
+Vertice 1151: 2144
+Vertice 1152: 2145
+Vertice 1153: 2146
+Vertice 1154: 2147
+Vertice 1155: 2148
+Vertice 1156: 2149
+Vertice 1157: 2150
+Vertice 1158: 2151
+Vertice 1159: 2152
+Vertice 1160: 2153
+Vertice 1161: 2154
+Vertice 1162: 2155
+Vertice 1163: 2156
+Vertice 1164: 2157
+Vertice 1165: 2158
+Vertice 1166: 2159
+Vertice 1167: 2160
+Vertice 1168: 2161
+Vertice 1169: 2162
+Vertice 1170: 2163
+Vertice 1171: 2164
+Vertice 1172: 2166
+Vertice 1173: 2167
+Vertice 1174: 2168
+Vertice 1175: 2205
+Vertice 1176: 2204
+Vertice 1177: 2203
+Vertice 1178: 2202
+Vertice 1179: 2201
+Vertice 1180: 2200
+Vertice 1181: 2206
+Vertice 1182: 2207
+Vertice 1183: 2241
+Vertice 1184: 2242
+Vertice 1185: 2243
+Vertice 1186: 2244
+Vertice 1187: 2245
+Vertice 1188: 2246
+Vertice 1189: 2247
+Vertice 1190: 2193
+Vertice 1191: 1874
+Vertice 1192: 1873
+Vertice 1193: 1872
+Vertice 1194: 1871
+Vertice 1195: 1870
+Vertice 1196: 288
+Vertice 1197: 1140
+Vertice 1198: 1139
+Vertice 1199: 1138
+Vertice 1200: 1137
+Vertice 1201: 1136
+Vertice 1202: 1135
+Vertice 1203: 1134
+Vertice 1204: 1133
+Vertice 1205: 1132
+Vertice 1206: 1131
+Vertice 1207: 1130
+Vertice 1208: 1129
+Vertice 1209: 1128
+Vertice 1210: 1127
+Vertice 1211: 1126
+Vertice 1212: 1125
+Vertice 1213: 1124
+Vertice 1214: 1123
+Vertice 1215: 1122
+Vertice 1216: 1121
+Vertice 1217: 1120
+Vertice 1218: 1119
+Vertice 1219: 1118
+Vertice 1220: 1117
+Vertice 1221: 1116
+Vertice 1222: 1115
+Vertice 1223: 1114
+Vertice 1224: 1113
+Vertice 1225: 1112
+Vertice 1226: 1111
+Vertice 1227: 1110
+Vertice 1228: 1109
+Vertice 1229: 1108
+Vertice 1230: 1107
+Vertice 1231: 1106
+Vertice 1232: 1105
+Vertice 1233: 1104
+Vertice 1234: 1103
+Vertice 1235: 1102
+Vertice 1236: 1101
+Vertice 1237: 1100
+Vertice 1238: 1099
+Vertice 1239: 1098
+Vertice 1240: 1097
+Vertice 1241: 1096
+Vertice 1242: 1095
+Vertice 1243: 1094
+Vertice 1244: 1093
+Vertice 1245: 1092
+Vertice 1246: 1091
+Vertice 1247: 1090
+Vertice 1248: 1089
+Vertice 1249: 1088
+Vertice 1250: 1087
+Vertice 1251: 1086
+Vertice 1252: 1085
+Vertice 1253: 1084
+Vertice 1254: 1083
+Vertice 1255: 1082
+Vertice 1256: 305
+Vertice 1257: 2343
+Vertice 1258: 2342
+Vertice 1259: 2341
+Vertice 1260: 2229
+Vertice 1261: 2212
+Vertice 1262: 2213
+Vertice 1263: 2214
+Vertice 1264: 2215
+Vertice 1265: 2216
+Vertice 1266: 2217
+Vertice 1267: 2218
+Vertice 1268: 2219
+Vertice 1269: 2220
+Vertice 1270: 2221
+Vertice 1271: 2222
+Vertice 1272: 2223
+Vertice 1273: 2224
+Vertice 1274: 2225
+Vertice 1275: 2226
+Vertice 1276: 2227
+Vertice 1277: 2228
+Vertice 1278: 3140
+Vertice 1279: 2284
+Vertice 1280: 2276
+Vertice 1281: 2277
+Vertice 1282: 2278
+Vertice 1283: 2279
+Vertice 1284: 2280
+Vertice 1285: 2281
+Vertice 1286: 2282
+Vertice 1287: 2283
+Vertice 1288: 3139
+Vertice 1289: 3138
+Vertice 1290: 3137
+Vertice 1291: 3136
+Vertice 1292: 3135
+Vertice 1293: 3134
+Vertice 1294: 3133
+Vertice 1295: 3132
+Vertice 1296: 3131
+Vertice 1297: 3130
+Vertice 1298: 3129
+Vertice 1299: 2340
+Vertice 1300: 2352
+Vertice 1301: 2353
+Vertice 1302: 2189
+Vertice 1303: 2184
+Vertice 1304: 2185
+Vertice 1305: 2186
+Vertice 1306: 2187
+Vertice 1307: 2188
+Vertice 1308: 2190
+Vertice 1309: 2191
+Vertice 1310: 2192
+Vertice 1311: 2842
+Vertice 1312: 2260
+Vertice 1313: 1052
+Vertice 1314: 1053
+Vertice 1315: 1054
+Vertice 1316: 1055
+Vertice 1317: 1056
+Vertice 1318: 1900
+Vertice 1319: 1899
+Vertice 1320: 1898
+Vertice 1321: 1897
+Vertice 1322: 1712
+Vertice 1323: 2346
+Vertice 1324: 2347
+Vertice 1325: 2348
+Vertice 1326: 2349
+Vertice 1327: 2350
+Vertice 1328: 1709
+Vertice 1329: 1080
+Vertice 1330: 1079
+Vertice 1331: 1078
+Vertice 1332: 1077
+Vertice 1333: 1076
+Vertice 1334: 1075
+Vertice 1335: 1074
+Vertice 1336: 2305
+Vertice 1337: 2304
+Vertice 1338: 2303
+Vertice 1339: 2289
+Vertice 1340: 2318
+Vertice 1341: 2317
+Vertice 1342: 2316
+Vertice 1343: 2315
+Vertice 1344: 2301
+Vertice 1345: 2308
+Vertice 1346: 2309
+Vertice 1347: 2310
+Vertice 1348: 2311
+Vertice 1349: 2312
+Vertice 1350: 2313
+Vertice 1351: 2288
+Vertice 1352: 2286
+Vertice 1353: 2287
+Vertice 1354: 2314
+Vertice 1355: 2302
+Vertice 1356: 2290
+Vertice 1357: 2291
+Vertice 1358: 2292
+Vertice 1359: 2293
+Vertice 1360: 2294
+Vertice 1361: 2295
+Vertice 1362: 2296
+Vertice 1363: 2297
+Vertice 1364: 2298
+Vertice 1365: 2299
+Vertice 1366: 2300
+Vertice 1367: 2274
+Vertice 1368: 2273
+Vertice 1369: 316
+Vertice 1370: 2330
+Vertice 1371: 2329
+Vertice 1372: 2328
+Vertice 1373: 2327
+Vertice 1374: 2326
+Vertice 1375: 2325
+Vertice 1376: 2324
+Vertice 1377: 2323
+Vertice 1378: 2322
+Vertice 1379: 2321
+Vertice 1380: 2320
+Vertice 1381: 315
+Vertice 1382: 314
+Vertice 1383: 313
+Vertice 1384: 312
+Vertice 1385: 311
+Vertice 1386: 310
+Vertice 1387: 309
+Vertice 1388: 308
+Vertice 1389: 300
+Vertice 1390: 2370
+Vertice 1391: 2371
+Vertice 1392: 2372
+Vertice 1393: 299
+Vertice 1394: 298
+Vertice 1395: 297
+Vertice 1396: 296
+Vertice 1397: 295
+Vertice 1398: 294
+Vertice 1399: 293
+Vertice 1400: 292
+Vertice 1401: 291
+Vertice 1402: 290
+Vertice 1403: 289
+Vertice 1404: 287
+Vertice 1405: 286
+Vertice 1406: 285
+Vertice 1407: 283
+Vertice 1408: 282
+Vertice 1409: 281
+Vertice 1410: 280
+Vertice 1411: 279
+Vertice 1412: 278
+Vertice 1413: 277
+Vertice 1414: 276
+Vertice 1415: 275
+Vertice 1416: 274
+Vertice 1417: 273
+Vertice 1418: 272
+Vertice 1419: 271
+Vertice 1420: 270
+Vertice 1421: 269
+Vertice 1422: 268
+Vertice 1423: 267
+Vertice 1424: 266
+Vertice 1425: 265
+Vertice 1426: 264
+Vertice 1427: 263
+Vertice 1428: 262
+Vertice 1429: 261
+Vertice 1430: 260
+Vertice 1431: 259
+Vertice 1432: 258
+Vertice 1433: 257
+Vertice 1434: 256
+Vertice 1435: 255
+Vertice 1436: 254
+Vertice 1437: 253
+Vertice 1438: 252
+Vertice 1439: 251
+Vertice 1440: 250
+Vertice 1441: 249
+Vertice 1442: 248
+Vertice 1443: 247
+Vertice 1444: 246
+Vertice 1445: 245
+Vertice 1446: 244
+Vertice 1447: 243
+Vertice 1448: 242
+Vertice 1449: 241
+Vertice 1450: 240
+Vertice 1451: 239
+Vertice 1452: 238
+Vertice 1453: 237
+Vertice 1454: 236
+Vertice 1455: 235
+Vertice 1456: 234
+Vertice 1457: 233
+Vertice 1458: 232
+Vertice 1459: 231
+Vertice 1460: 230
+Vertice 1461: 229
+Vertice 1462: 228
+Vertice 1463: 227
+Vertice 1464: 226
+Vertice 1465: 225
+Vertice 1466: 224
+Vertice 1467: 223
+Vertice 1468: 222
+Vertice 1469: 221
+Vertice 1470: 220
+Vertice 1471: 219
+Vertice 1472: 218
+Vertice 1473: 217
+Vertice 1474: 216
+Vertice 1475: 215
+Vertice 1476: 213
+Vertice 1477: 212
+Vertice 1478: 211
+Vertice 1479: 210
+Vertice 1480: 209
+Vertice 1481: 208
+Vertice 1482: 207
+Vertice 1483: 206
+Vertice 1484: 205
+Vertice 1485: 204
+Vertice 1486: 203
+Vertice 1487: 202
+Vertice 1488: 201
+Vertice 1489: 200
+Vertice 1490: 199
+Vertice 1491: 2844
+Vertice 1492: 2429
+Vertice 1493: 706
+Vertice 1494: 714
+Vertice 1495: 713
+Vertice 1496: 712
+Vertice 1497: 711
+Vertice 1498: 709
+Vertice 1499: 708
+Vertice 1500: 707
+Vertice 1501: 705
+Vertice 1502: 704
+Vertice 1503: 703
+Vertice 1504: 702
+Vertice 1505: 701
+Vertice 1506: 3046
+Vertice 1507: 114
+Vertice 1508: 115
+Vertice 1509: 119
+Vertice 1510: 120
+Vertice 1511: 121
+Vertice 1512: 122
+Vertice 1513: 123
+Vertice 1514: 124
+Vertice 1515: 1802
+Vertice 1516: 1801
+Vertice 1517: 1800
+Vertice 1518: 1799
+Vertice 1519: 182
+Vertice 1520: 181
+Vertice 1521: 180
+Vertice 1522: 179
+Vertice 1523: 178
+Vertice 1524: 177
+Vertice 1525: 1258
+Vertice 1526: 1257
+Vertice 1527: 1256
+Vertice 1528: 1255
+Vertice 1529: 1254
+Vertice 1530: 1253
+Vertice 1531: 1252
+Vertice 1532: 1251
+Vertice 1533: 1250
+Vertice 1534: 1249
+Vertice 1535: 1248
+Vertice 1536: 1247
+Vertice 1537: 1246
+Vertice 1538: 1245
+Vertice 1539: 1244
+Vertice 1540: 1243
+Vertice 1541: 1242
+Vertice 1542: 1241
+Vertice 1543: 1240
+Vertice 1544: 1239
+Vertice 1545: 1238
+Vertice 1546: 1237
+Vertice 1547: 1236
+Vertice 1548: 1235
+Vertice 1549: 1234
+Vertice 1550: 1233
+Vertice 1551: 1232
+Vertice 1552: 1231
+Vertice 1553: 1230
+Vertice 1554: 1467
+Vertice 1555: 1466
+Vertice 1556: 1465
+Vertice 1557: 1464
+Vertice 1558: 1463
+Vertice 1559: 1462
+Vertice 1560: 1461
+Vertice 1561: 1460
+Vertice 1562: 1459
+Vertice 1563: 1458
+Vertice 1564: 1457
+Vertice 1565: 1456
+Vertice 1566: 1455
+Vertice 1567: 2442
+Vertice 1568: 2441
+Vertice 1569: 2440
+Vertice 1570: 2439
+Vertice 1571: 2438
+Vertice 1572: 2437
+Vertice 1573: 2436
+Vertice 1574: 2435
+Vertice 1575: 2434
+Vertice 1576: 2433
+Vertice 1577: 2432
+
+ANALISE
+----------------------------------------
+As vias identificadas como pontes representam arestas cuja remocao pode aumentar o numero de componentes conexos do grafo.
+Essas vias devem ser consideradas na analise de rotas de fuga e no planejamento de reforco estrutural preventivo.
