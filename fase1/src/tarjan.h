@@ -48,4 +48,15 @@ void gerar_relatorio_vias_criticas(
     const char *nome_arquivo
 );
 
+void identificar_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado
+);
+
+void gerar_relatorio_vias_criticas(
+    Grafo *grafo,
+    ResultadoTarjan *resultado,
+    const char *nome_arquivo
+);
+
 #endif
