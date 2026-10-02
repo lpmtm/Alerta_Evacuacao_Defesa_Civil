@@ -1,48 +1,74 @@
 # Alerta Evacuação Defesa Civil
 
-Simulação computacional do rompimento de uma barragem de rejeitos, aplicada a um cenário de evacuação e defesa civil. O projeto utiliza Teoria dos Grafos para modelar a propagação do desastre, identificar rotas de fuga críticas e otimizar o posicionamento de recursos de resposta.
+Análise da malha viária do entorno da mina **Córrego do Feijão (Brumadinho–MG)**, onde a barragem B1 se rompeu em 25/01/2019, usando Teoria dos Grafos. O projeto modela cruzamentos como vértices e trechos de via como arestas para responder perguntas da Defesa Civil: quais regiões estão isoladas, quais vias não têm desvio, quais cruzamentos são pontos únicos de falha e em que ordem a frente de rejeitos alcança cada ponto.
 
-## Cenário
+Projeto integrador da disciplina de Teoria dos Grafos — implementação autoral em **C**, sem bibliotecas de grafos (RNF01), com artigo no padrão SBC.
 
-Mapeamento de uma zona de risco (enchente/desabamento) inspirado em casos reais de rompimento de barragem, como o de Brumadinho. O grafo representa cruzamentos e vias de uma cidade/região, permitindo:
+## Principais resultados da Fase I
 
-- Identificar pontes e vias críticas que precisam de reforço estrutural preventivo
-- Simular a propagação do desastre a partir do ponto de ruptura
-- Calcular rotas mais seguras para ambulâncias até hospitais
-- Posicionar postos móveis da Defesa Civil de forma eficiente
+| Resultado | Valor |
+|---|---|
+| Grafo (OpenStreetMap, 224 vias) | 3.143 vértices, 3.199 arestas, 88,3 km |
+| Componentes conexos | 3 (principal com 3.115 vértices) |
+| Pontes (vias sem rota alternativa) | 1.615 arestas (50,5%) — **145 trechos críticos** |
+| Vértices de articulação | 1.577 — **107 cruzamentos reais** |
+| Ciclos / bipartição | possui ciclos (59 independentes) / não é bipartido |
+| Memória no grafo completo | lista 124,5 KiB × matriz 37,7 MiB (310×) |
+| Crescimento empírico das buscas | linear (expoente entre 0,93 e 1,09) |
+
+Todos os resultados estruturais foram validados com a biblioteca NetworkX sobre a mesma lista de arestas. Detalhes em [`docs/artigo/artigo.pdf`](docs/artigo/artigo.pdf).
 
 ## Estrutura do repositório
 
 ```
 .
-├── fase1/          Topologia e Conectividade (BFS/DFS, pontes, articulação)
-│   ├── src/        Código-fonte em C
-│   ├── data/       Datasets utilizados
-│   └── tests/      Scripts e resultados de testes de desempenho
-├── fase2/          Otimização e Complexidade (Dijkstra, Cobertura de Vértices)
-│   ├── src/
-│   ├── data/
-│   └── tests/
+├── fase1/                     Topologia e Conectividade
+│   ├── src/                   Código-fonte em C
+│   │   ├── grafo.c/.h         Estrutura (lista + matriz), leitura do GeoJSON
+│   │   ├── log.c/.h           Log de tempo (ms) e memória (RF03)
+│   │   ├── bfs.c, dfs.c       Buscas em largura e profundidade
+│   │   ├── componentes.c      Componentes conexos e vértices isolados
+│   │   ├── ciclos.c           Detecção de ciclos e bipartição
+│   │   ├── propagacao.c       Propagação da lama por níveis da BFS
+│   │   ├── tarjan.c           Pontes e vértices de articulação
+│   │   ├── gerar_subgrafos.c  Subgrafos de 100/500/1000 vértices (CSV)
+│   │   └── teste_*.c          Programas de teste de cada módulo
+│   ├── data/                  mapa_brumadinho.geojson, subgrafos CSV, relatório de vias críticas
+│   └── tests/                 Scripts e resultados dos testes de desempenho
+├── fase2/                     Otimização e Complexidade (Dijkstra, Cobertura de Vértices)
 └── docs/
-    └── artigo/     Artigo científico no padrão SBC
+    └── artigo/                Artigo SBC (artigo.tex, artigo.pdf, figuras/)
 ```
 
-## Requisitos técnicos
+## Como compilar e executar
 
-- Linguagem: **C**, sem bibliotecas prontas de grafos (implementação autoral dos algoritmos core)
-- Dataset real com no mínimo 1.000 vértices
-- Suporte a Lista e Matriz de Adjacência
-- Geração de logs de tempo de execução (ms) e consumo de memória
+Requisitos: GCC (ou MinGW no Windows). Todos os comandos abaixo são executados dentro de `fase1/src`.
 
-## Como compilar e rodar
+**Programa principal** (carrega o mapa e mostra estatísticas):
 
 ```bash
-cd fase1/src
-gcc -o programa main.c -Wall
-./programa
+gcc -o programa main.c grafo.c -lm -Wall
+./programa ../data/mapa_brumadinho.geojson
 ```
 
-*(Instruções detalhadas serão atualizadas conforme os módulos forem implementados.)*
+**Testes de cada módulo:**
+
+```bash
+gcc -o teste_bfs         teste_bfs.c bfs.c grafo.c log.c -lm
+gcc -o teste_dfs         teste_dfs.c dfs.c grafo.c log.c -lm
+gcc -o teste_componentes teste_componentes.c componentes.c bfs.c grafo.c log.c -lm
+gcc -o teste_ciclos      teste_ciclos.c ciclos.c grafo.c log.c -lm
+gcc -o teste_propagacao  teste_propagacao.c propagacao.c bfs.c grafo.c log.c -lm
+gcc -o teste_tarjan      teste_tarjan.c tarjan.c grafo.c log.c -lm   # gera data/relatorio_vias_criticas.txt
+```
+
+Cada algoritmo registra tempo e memória em `logs/resultados.csv` (RF03).
+
+**Artigo:** `cd docs/artigo && lualatex artigo.tex` (rodar duas vezes). Também compila com pdfLaTeX, por exemplo no Overleaf.
+
+## Dados
+
+Malha viária extraída do [OpenStreetMap](https://www.openstreetmap.org) via overpass-turbo em 08/09/2026 (licença ODbL). Vértices são coordenadas distintas; arestas ligam coordenadas consecutivas de uma mesma via. O grafo é não direcionado e, na Fase I, não ponderado.
 
 ## Equipe
 
@@ -56,9 +82,5 @@ gcc -o programa main.c -Wall
 
 ## Fases do projeto
 
-- **Fase I:** Topologia e Conectividade — Sprint 1 e 2
-- **Fase II:** Otimização e Complexidade — a definir
-
-## Disciplina
-
-Projeto acadêmico aplicando Teoria dos Grafos a um problema real, com artigo científico no padrão SBC (Sociedade Brasileira de Computação).
+- **Fase I — Topologia e Conectividade:** concluída (estrutura de dados, BFS/DFS, componentes, ciclos/bipartição, propagação, Tarjan, testes de desempenho e artigo).
+- **Fase II — Otimização e Complexidade:** pesos pela distância de Haversine, Dijkstra para rotas seguras e Cobertura de Vértices para postos de socorro.

@@ -1,0 +1,7 @@
+BFS (lista),0.97
+BFS (matriz),2.04
+DFS,1.09
+Componentes,1.01
+CiclosBipartido,0.93
+Propagacao,0.93
+Tarjan,2.01
