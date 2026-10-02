@@ -1,0 +1,26 @@
+# Executáveis e objetos gerados na compilação
+*.exe
+*.o
+*.out
+fase1/src/programa
+fase1/src/benchmark_fase1
+fase1/src/teste_bfs
+fase1/src/teste_dfs
+fase1/src/teste_componentes
+fase1/src/teste_ciclos
+fase1/src/teste_propagacao
+fase1/src/teste_tarjan
+fase1/src/teste_lista
+fase1/src/teste_matriz
+fase1/src/teste_log
+
+# LaTeX (arquivos auxiliares do artigo)
+docs/artigo/*.aux
+docs/artigo/*.log
+docs/artigo/*.out
+docs/artigo/*.synctex.gz
+docs/artigo/*.fls
+docs/artigo/*.fdb_latexmk
+
+# Python
+__pycache__/
