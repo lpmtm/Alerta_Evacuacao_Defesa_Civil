@@ -8,7 +8,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/229354826",
-        "highway": "tertiary",
+        "highway": "tertiary", 
         "surface": "asphalt"
       },
       "geometry": {
