@@ -13,8 +13,6 @@ typedef struct {
 
     int *descoberta;
     int *low;
-    int *pai;
-    int *pai_aresta;
 
     int tempo;
     int total_pontes;
@@ -74,9 +72,15 @@ static int escrever_linha_csv(
 {
     Grafo *g = ctx->grafo;
 
-    Coordenada a = g->vertices[origem].coordenada;
-    Coordenada b = g->vertices[destino].coordenada;
+    Coordenada a = {
+        .lon = g->vertices[origem].lon,
+        .lat = g->vertices[origem].lat
+    };
 
+    Coordenada b = {
+        .lon = g->vertices[destino].lon,
+        .lat = g->vertices[destino].lat
+    };
     const char *id = "";
     const char *nome = "";
     const char *oficial = "";
@@ -154,8 +158,15 @@ static int escrever_linha_relatorio(
         ctx->pontes_com_nome_oficial++;
     }
 
-    Coordenada a = g->vertices[origem].coordenada;
-    Coordenada b = g->vertices[destino].coordenada;
+    Coordenada a = {
+        .lon = g->vertices[origem].lon,
+        .lat = g->vertices[origem].lat
+    };
+
+    Coordenada b = {
+        .lon = g->vertices[destino].lon,
+        .lat = g->vertices[destino].lat
+    };
 
     if (fprintf(
             ctx->arquivo_txt,
@@ -196,8 +207,6 @@ static int dfs_tarjan(ContextoTarjan *ctx, int u, int aresta_pai)
         }
 
         if (ctx->descoberta[v] == 0) {
-            ctx->pai[v] = u;
-            ctx->pai_aresta[v] = adj->id_aresta;
 
             if (!dfs_tarjan(ctx, v, adj->id_aresta)) {
                 return 0;
@@ -283,21 +292,14 @@ int gerar_relatorios_pontes(
 
     ctx.descoberta = calloc((size_t)n, sizeof(int));
     ctx.low = calloc((size_t)n, sizeof(int));
-    ctx.pai = malloc(sizeof(int) * (size_t)n);
-    ctx.pai_aresta = malloc(sizeof(int) * (size_t)n);
 
-    if (n > 0 && (!ctx.descoberta || !ctx.low || !ctx.pai)) {
+    if (n > 0 && (!ctx.descoberta || !ctx.low)) {
         free(ctx.descoberta);
         free(ctx.low);
-        free(ctx.pai);
 
         fclose(csv);
         fclose(txt);
         return 0;
-    }
-
-    for (int i = 0; i < n; i++) {
-        ctx.pai[i] = -1;
     }
 
     int sucesso = 1;
@@ -326,7 +328,6 @@ int gerar_relatorios_pontes(
 
     free(ctx.descoberta);
     free(ctx.low);
-    free(ctx.pai);
 
     int erro_escrita = ferror(csv) || ferror(txt);
 

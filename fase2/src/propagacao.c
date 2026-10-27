@@ -23,7 +23,7 @@ int simular_propagacao(Grafo *g, int origem, int *camada) {
 
     while (inicio < fim) {
         int u = fila[inicio++];
-        for (NoAdjacente *a = g->lista_adj[u]; a; a = a->prox) {
+        for (NoAdjacente *a = g->vertices[u].adjacencias; a; a = a->prox) {
             int v = a->destino;
             if (camada[v] == CAMADA_NAO_ATINGIDO) {
                 camada[v] = camada[u] + 1;

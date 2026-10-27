@@ -213,23 +213,24 @@ static int adicionar_metadados(
     return indice;
 }
 
+
 void inicializar_grafo(Grafo *g)
 {
     if (!g) {
         return;
     }
 
-    g->quantidade_arestas = 0;
     g->vertices = NULL;
     g->quantidade_vertices = 0;
     g->capacidade_vertices = 0;
+    g->quantidade_arestas = 0;
 
     g->metadados_vias = NULL;
     g->quantidade_vias = 0;
     g->capacidade_vias = 0;
 }
 
-void destruir_grafo(Grafo *g)
+void destruir_grafo_conteudo(Grafo *g)
 {
     if (!g) {
         return;
@@ -255,21 +256,28 @@ void destruir_grafo(Grafo *g)
     }
 
     free(g->metadados_vias);
-
     inicializar_grafo(g);
 }
 
-int obter_ou_criar_vertice(
-    Grafo *g,
-    double lon,
-    double lat
-)
+void destruir_grafo(Grafo *g)
 {
-    for (int i = 0; i < g->quantidade_vertices; i++) {
-        Coordenada c = g->vertices[i].coordenada;
+    if (!g) {
+        return;
+    }
 
-        if (fabs(c.lon - lon) < TOLERANCIA_COORDENADA &&
-            fabs(c.lat - lat) < TOLERANCIA_COORDENADA) {
+    destruir_grafo_conteudo(g);
+    free(g);
+}
+
+int obter_ou_criar_vertice(Grafo *g, double lon, double lat)
+{
+    if (!g) {
+        return -1;
+    }
+
+    for (int i = 0; i < g->quantidade_vertices; i++) {
+        if (fabs(g->vertices[i].lon - lon) < TOLERANCIA_COORDENADA &&
+            fabs(g->vertices[i].lat - lat) < TOLERANCIA_COORDENADA) {
             return i;
         }
     }
@@ -281,7 +289,7 @@ int obter_ou_criar_vertice(
 
         Vertice *novo = realloc(
             g->vertices,
-            sizeof(Vertice) * (size_t)nova_capacidade
+            sizeof(*novo) * (size_t)nova_capacidade
         );
 
         if (!novo) {
@@ -294,12 +302,13 @@ int obter_ou_criar_vertice(
 
     int indice = g->quantidade_vertices++;
 
-    g->vertices[indice].coordenada.lon = lon;
-    g->vertices[indice].coordenada.lat = lat;
+    g->vertices[indice].lon = lon;
+    g->vertices[indice].lat = lat;
     g->vertices[indice].adjacencias = NULL;
 
     return indice;
 }
+
 
 int adicionar_aresta_com_via(
     Grafo *g,
@@ -351,66 +360,79 @@ int adicionar_aresta_com_via(
 
 TipoVia tipo_via_de_texto(const char *texto)
 {
-    if (!texto) {
+    if (texto == NULL) {
         return VIA_DESCONHECIDA;
     }
 
-    if (strcmp(texto, "residential") == 0) {
-        return VIA_RESIDENCIAL;
+    if (strcmp(texto, "service") == 0) {
+        return VIA_SERVICE;
     }
-
+    if (strcmp(texto, "track") == 0) {
+        return VIA_TRACK;
+    }
+    if (strcmp(texto, "tertiary") == 0) {
+        return VIA_TERTIARY;
+    }
+    if (strcmp(texto, "tertiary_link") == 0) {
+        return VIA_TERTIARY_LINK;
+    }
+    if (strcmp(texto, "unclassified") == 0) {
+        return VIA_UNCLASSIFIED;
+    }
+    if (strcmp(texto, "residential") == 0) {
+        return VIA_RESIDENTIAL;
+    }
+    if (strcmp(texto, "path") == 0) {
+        return VIA_PATH;
+    }
+    if (strcmp(texto, "footway") == 0 ||
+        strcmp(texto, "pedestrian") == 0) {
+        return VIA_FOOTWAY;
+    }
     if (strcmp(texto, "primary") == 0 ||
         strcmp(texto, "trunk") == 0 ||
         strcmp(texto, "motorway") == 0) {
         return VIA_PRINCIPAL;
     }
-
     if (strcmp(texto, "secondary") == 0) {
         return VIA_SECUNDARIA;
     }
-
-    if (strcmp(texto, "tertiary") == 0) {
-        return VIA_TERCIARIA;
-    }
-
-    if (strcmp(texto, "living_street") == 0 ||
-        strcmp(texto, "unclassified") == 0) {
+    if (strcmp(texto, "living_street") == 0) {
         return VIA_LOCAL;
     }
 
-    if (strcmp(texto, "service") == 0) {
-        return VIA_SERVICO;
-    }
-
-    if (strcmp(texto, "path") == 0 ||
-        strcmp(texto, "footway") == 0 ||
-        strcmp(texto, "track") == 0 ||
-        strcmp(texto, "pedestrian") == 0) {
-        return VIA_TRILHA;
-    }
-
-    return VIA_OUTRA;
+    return VIA_OUTRO;
 }
 
 const char *nome_tipo_via(TipoVia tipo)
 {
     switch (tipo) {
-        case VIA_RESIDENCIAL:
+        case VIA_DESCONHECIDA:
+            return "desconhecida";
+        case VIA_SERVICE:
+            return "service";
+        case VIA_TRACK:
+            return "track";
+        case VIA_TERTIARY:
+            return "tertiary";
+        case VIA_TERTIARY_LINK:
+            return "tertiary_link";
+        case VIA_UNCLASSIFIED:
+            return "unclassified";
+        case VIA_RESIDENTIAL:
             return "residential";
+        case VIA_PATH:
+            return "path";
+        case VIA_FOOTWAY:
+            return "footway";
+        case VIA_OUTRO:
+            return "outra";
         case VIA_PRINCIPAL:
-            return "primary";
+            return "principal";
         case VIA_SECUNDARIA:
             return "secondary";
-        case VIA_TERCIARIA:
-            return "tertiary";
         case VIA_LOCAL:
             return "local";
-        case VIA_SERVICO:
-            return "service";
-        case VIA_TRILHA:
-            return "trilha";
-        case VIA_OUTRA:
-            return "outra";
         default:
             return "desconhecida";
     }
@@ -692,4 +714,69 @@ int carregar_geojson(Grafo *g, const char *caminho)
     free(conteudo);
 
     return features_processadas > 0;
+}
+
+/* Compatibilidade com os módulos legados: o grafo continua usando listas. */
+Grafo *criar_grafo(int capacidade_inicial)
+{
+    Grafo *g = malloc(sizeof(*g));
+    if (!g) return NULL;
+    inicializar_grafo(g);
+    if (capacidade_inicial > 0) {
+        g->vertices = calloc((size_t)capacidade_inicial, sizeof(*g->vertices));
+        if (!g->vertices) { free(g); return NULL; }
+        g->capacidade_vertices = capacidade_inicial;
+    }
+    return g;
+}
+
+Grafo *carregar_grafo_geojson(const char *caminho)
+{
+    Grafo *g = criar_grafo(0);
+    if (!g) return NULL;
+    if (!carregar_geojson(g, caminho)) { destruir_grafo(g); return NULL; }
+    return g;
+}
+
+void adicionar_aresta_tipada(Grafo *g, int origem, int destino, TipoVia tipo)
+{
+    (void)adicionar_aresta_com_via(g, origem, destino, tipo, -1);
+}
+
+void adicionar_aresta(Grafo *g, int origem, int destino)
+{
+    adicionar_aresta_tipada(g, origem, destino, VIA_DESCONHECIDA);
+}
+
+void imprimir_estatisticas(Grafo *g)
+{
+    if (!g) return;
+    printf("Vértices: %d\nArestas: %d\nVias com metadados: %d\n",
+           g->quantidade_vertices, g->quantidade_arestas, g->quantidade_vias);
+}
+
+void imprimir_lista_adjacencia(Grafo *g)
+{
+    if (!g) return;
+    for (int i = 0; i < g->quantidade_vertices; i++) {
+        printf("%d:", i);
+        for (NoAdjacente *a = g->vertices[i].adjacencias; a; a = a->prox)
+            printf(" %d(%s)", a->destino, nome_tipo_via(a->tipo));
+        putchar('\n');
+    }
+}
+
+void imprimir_matriz_adjacencia(Grafo *g, int limite)
+{
+    if (!g) return;
+    int n = g->quantidade_vertices < limite ? g->quantidade_vertices : limite;
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            int ligado = 0;
+            for (NoAdjacente *a = g->vertices[i].adjacencias; a; a = a->prox)
+                if (a->destino == j) { ligado = 1; break; }
+            printf("%d%s", ligado, j + 1 == n ? "" : " ");
+        }
+        putchar('\n');
+    }
 }

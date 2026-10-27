@@ -74,7 +74,7 @@ static int criar_grafo_teste(Grafo *g, int quantidade)
 
     for (int i = 0; i < quantidade; i++) {
         if (obter_ou_criar_vertice(g, (double)i, 0.0) < 0) {
-            destruir_grafo(g);
+            destruir_grafo_conteudo(g);
             return 0;
         }
     }
@@ -100,7 +100,7 @@ int main(void)
     } else {
         puts("FALHOU: insercao de aresta no teste 1.");
     }
-    destruir_grafo(&g);
+    destruir_grafo_conteudo(&g);
 
     /* 2. Triangulo: nenhuma ponte. */
     if (!criar_grafo_teste(&g, 3)) return EXIT_FAILURE;
@@ -114,7 +114,7 @@ int main(void)
     } else {
         puts("FALHOU: insercao de aresta no teste 2.");
     }
-    destruir_grafo(&g);
+    destruir_grafo_conteudo(&g);
 
     /* 3. Triangulo com ramo C-D: uma ponte. */
     if (!criar_grafo_teste(&g, 4)) return EXIT_FAILURE;
@@ -129,7 +129,7 @@ int main(void)
     } else {
         puts("FALHOU: insercao de aresta no teste 3.");
     }
-    destruir_grafo(&g);
+    destruir_grafo_conteudo(&g);
 
     /* 4. Caminho com vertice isolado: duas pontes. */
     if (!criar_grafo_teste(&g, 4)) return EXIT_FAILURE;
@@ -144,7 +144,7 @@ int main(void)
     } else {
         puts("FALHOU: insercao de aresta no teste 4.");
     }
-    destruir_grafo(&g);
+    destruir_grafo_conteudo(&g);
 
     /*
      * 5. Duas arestas paralelas A-B e uma aresta B-C.
@@ -167,7 +167,7 @@ int main(void)
     } else {
         puts("FALHOU: insercao de aresta no teste 5.");
     }
-    destruir_grafo(&g);
+    destruir_grafo_conteudo(&g);
 
     printf("\n============================\n");
     printf("Resultado: %d/%d testes aprovados.\n", aprovados, total);

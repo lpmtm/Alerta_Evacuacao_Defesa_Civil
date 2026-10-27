@@ -3,6 +3,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#if defined(_WIN32)
+#include <direct.h>
+#else
+#include <sys/stat.h>
+#include <sys/types.h>
+#endif
 
 int main(int argc, char *argv[])
 {
@@ -13,6 +19,12 @@ int main(int argc, char *argv[])
 
     const char *arquivo_csv = "saida/ponte.csv";
     const char *arquivo_txt = "saida/relatorio_pontes.txt";
+
+    #if defined(_WIN32)
+    _mkdir("saida");
+    #else
+    mkdir("saida", 0777);
+    #endif
 
     Grafo grafo;
     inicializar_grafo(&grafo);
@@ -25,7 +37,7 @@ int main(int argc, char *argv[])
             "Erro: não foi possível carregar as vias do GeoJSON.\n"
         );
 
-        destruir_grafo(&grafo);
+        destruir_grafo_conteudo(&grafo);
         return EXIT_FAILURE;
     }
 
@@ -42,7 +54,7 @@ int main(int argc, char *argv[])
             "Erro ao gerar os relatórios de pontes.\n"
         );
 
-        destruir_grafo(&grafo);
+        destruir_grafo_conteudo(&grafo);
         return EXIT_FAILURE;
     }
 
@@ -50,7 +62,7 @@ int main(int argc, char *argv[])
     printf(" - %s\n", arquivo_csv);
     printf(" - %s\n", arquivo_txt);
 
-    destruir_grafo(&grafo);
+    destruir_grafo_conteudo(&grafo);
 
     return EXIT_SUCCESS;
 }
