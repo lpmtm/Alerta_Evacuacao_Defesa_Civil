@@ -680,32 +680,39 @@ int carregar_geojson(Grafo *g, const char *caminho)
     const char *p = conteudo;
     const char *fim = conteudo + lidos;
     int features_processadas = 0;
+    const char *lista = strstr(conteudo, "\"features\"");
+    lista = lista ? strchr(lista, '[') : NULL;
 
+    if (!lista) {
+        free(conteudo);
+        return 0;
+    }
+
+    p = lista + 1;
     while (p < fim) {
-        const char *feature = strstr(p, "\"type\"");
+        p = pular_espacos(p, fim);
 
-        if (!feature || feature >= fim) {
+        if (p >= fim) {
             break;
         }
 
-        const char *abre = strchr(feature, '{');
-
-        if (!abre || abre >= fim) {
-            break;
+        if (*p == ',') {
+            p++;
+            continue;
         }
 
-        const char *fecha = fim_objeto(abre, fim);
+        if (*p != '{') {
+            break; /* chegou no ']' que fecha a lista */
+        }
+
+        const char *fecha = fim_objeto(p, fim);
 
         if (!fecha) {
             break;
         }
 
-        const char *tipo_feature = strstr(feature, "\"Feature\"");
-
-        if (tipo_feature && tipo_feature < fecha) {
-            if (adicionar_feature(g, abre, fecha)) {
-                features_processadas++;
-            }
+        if (adicionar_feature(g, p, fecha)) {
+            features_processadas++;
         }
 
         p = fecha;
@@ -715,6 +722,7 @@ int carregar_geojson(Grafo *g, const char *caminho)
 
     return features_processadas > 0;
 }
+
 
 /* Compatibilidade com os módulos legados: o grafo continua usando listas. */
 Grafo *criar_grafo(int capacidade_inicial)
