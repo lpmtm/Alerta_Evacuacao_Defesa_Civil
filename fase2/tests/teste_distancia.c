@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
     double maior = 0.0;
 
     for (int i = 0; i < g->num_vertices; i++) {
-        for (NoAdjacente *a = g->lista_adj[i]; a; a = a->prox) {
+        for (NoAdjacente *a = g->vertices[i].adjacencias; a; a = a->prox) {
             if (i >= a->destino) continue;
 
             double d = distancia_entre_vertices(g, i, a->destino);

@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
         contados++;
 
         int tem_pai = (u == origem);
-        for (NoAdjacente *a = g->lista_adj[u]; a; a = a->prox) {
+        for (NoAdjacente *a = g->vertices[u].adjacencias; a; a = a->prox) {
             int v = a->destino;
             if (camada[v] == CAMADA_NAO_ATINGIDO) {
                 vizinho_nao_atingido++;
