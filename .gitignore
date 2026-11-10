@@ -14,13 +14,17 @@ fase1/src/teste_lista
 fase1/src/teste_matriz
 fase1/src/teste_log
 
+# Fase II: executáveis e logs gerados pelo Makefile
+fase2/bin/
+fase2/logs/
+
 # LaTeX (arquivos auxiliares do artigo)
-docs/artigo/*.aux
-docs/artigo/*.log
-docs/artigo/*.out
-docs/artigo/*.synctex.gz
-docs/artigo/*.fls
-docs/artigo/*.fdb_latexmk
+docs/artigo/**/*.aux
+docs/artigo/**/*.log
+docs/artigo/**/*.out
+docs/artigo/**/*.synctex.gz
+docs/artigo/**/*.fls
+docs/artigo/**/*.fdb_latexmk
 
 # Python
 __pycache__/
